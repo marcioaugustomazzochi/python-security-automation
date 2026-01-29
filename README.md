@@ -1,6 +1,6 @@
 # Automação de Segurança em Python
 
-Este projeto tem como objetivo a **automação de processos de segurança** utilizando **Python**. As principais funcionalidades incluem:
+Este projeto tem como objetivo a automação de processos de segurança utilizando **Python**. As principais funcionalidades incluem:
 
 - **Varredura de vulnerabilidades** em sistemas e redes.
 - **Coleta de dados de ameaças** de fontes públicas.
@@ -10,16 +10,16 @@ O projeto busca melhorar a **resposta a incidentes de segurança** e facilitar *
 
 ## 📌 Funcionalidades
 
-- **Varredura de Vulnerabilidades com Nmap**: Automatiza o uso de Nmap para identificar vulnerabilidades em hosts.
+- **Varredura de Vulnerabilidades com Nmap**: Automatiza o uso do Nmap para identificar vulnerabilidades em hosts.
 - **Coleta de Dados de Ameaças**: Scripts para coleta e análise de dados de fontes confiáveis (ex: CVE, feeds de ameaças).
-- **Análise de Tráfego de Rede**: Utiliza pacotes Python para capturar e analisar pacotes de rede em tempo real.
+- **Análise de Tráfego de Rede**: Utilize pacotes Python para capturar e analisar pacotes de rede em tempo real.
 
 ## 🛠️ Tecnologias
 
 - **Python 3.x**
-- **Nmap** (usado via subprocess ou pyNmap)
+- **Nmap** (usado via subprocesso ou pyNmap)
 - **Scapy** (para captura e análise de pacotes)
-- **Requests** (para coletar dados de fontes de ameaças)
+- **Requests** (para coleta de dados de fontes de ameaças)
 
 ## 💻 Exemplo de Uso
 
@@ -54,7 +54,5 @@ Este projeto está licenciado sob a MIT License - consulte o arquivo LICENSE par
 Todos os scripts devem ser utilizados em ambientes controlados e autorizados para fins educacionais. A aplicação de qualquer técnica em redes ou sistemas sem permissão prévia é ilegal e antiética.
 
 
-Agora o conteúdo está bem formatado. O código está corretamente encapsulado, e o exemplo de **Coleta de Dados de Ameaças** também está organizado.
-
-Você pode copiar e colar diretamente no seu arquivo `README.md` no GitHub.
+Agora, o arquivo está pronto para ser publicado no GitHub. Se precisar de mais alguma ajuda, é só avisar!
 ::contentReference[oaicite:0]{index=0}
