@@ -64,9 +64,7 @@ get_cve_data()
 📄 Licença
 Este projeto está licenciado sob a MIT License - consulte o arquivo LICENSE para mais detalhes.
 
-⚠️ Aviso:
-Todos os scripts devem ser utilizados em ambientes controlados e autorizados para fins educacionais. A aplicação de qualquer técnica em redes ou sistemas sem permissão prévia é ilegal e antiética.
+⚠️ Aviso Ético
+Todos os scripts devem ser utilizados em ambientes controlados e autorizados para fins educacionais.
+A aplicação de qualquer técnica em redes ou sistemas sem permissão prévia é ilegal e antiética.
 
-
-Com essas adições, o projeto fica mais estruturado e com informações mais completas para quem for testar ou colaborar. Se precisar de mais ajustes, é só falar!
-::contentReference[oaicite:0]{index=0}
