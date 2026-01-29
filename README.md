@@ -54,4 +54,7 @@ Este projeto está licenciado sob a MIT License - consulte o arquivo LICENSE par
 Todos os scripts devem ser utilizados em ambientes controlados e autorizados para fins educacionais. A aplicação de qualquer técnica em redes ou sistemas sem permissão prévia é ilegal e antiética.
 
 
+Agora o conteúdo está bem formatado. O código está corretamente encapsulado, e o exemplo de **Coleta de Dados de Ameaças** também está organizado.
 
+Você pode copiar e colar diretamente no seu arquivo `README.md` no GitHub.
+::contentReference[oaicite:0]{index=0}
