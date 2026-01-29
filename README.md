@@ -54,9 +54,4 @@ Este projeto está licenciado sob a MIT License - consulte o arquivo LICENSE par
 Todos os scripts devem ser utilizados em ambientes controlados e autorizados para fins educacionais. A aplicação de qualquer técnica em redes ou sistemas sem permissão prévia é ilegal e antiética.
 
 
-Essa correção organiza corretamente a parte de código, especialmente o exemplo de **Coleta de Dados de Ameaças**, dentro da marcação de código, para que fique bem formatado no seu repositório GitHub.
 
-Agora, o `README.md` está pronto para ser colado no repositório!
-
-Se precisar de mais alguma coisa, só avisar!
-::contentReference[oaicite:0]{index=0}
