@@ -21,11 +21,16 @@ O projeto busca melhorar a **resposta a incidentes de segurança** e facilitar *
 - **Scapy** (para captura e análise de pacotes)
 - **Requests** (para coleta de dados de fontes de ameaças)
 
-## 💻 Exemplo de Uso
+## ⚙️ Instalação
 
-### 1. **Varredura de Vulnerabilidades com Nmap**
+Clone o repositório e instale as dependências:
 
-```python
+```bash
+git clone https://github.com/marcioaugustomazzochi/python-security-automation.git
+cd python-security-automation
+pip install -r requirements.txt
+💻 Exemplo de Uso
+1. Varredura de Vulnerabilidades com Nmap
 import subprocess
 
 def run_nmap(target):
@@ -47,12 +52,21 @@ def get_cve_data():
 
 # Exemplo de uso
 get_cve_data()
+🗺️ Roadmap
+ Varredura de vulnerabilidades com Nmap
+
+ Coleta de dados de ameaças (CVE API)
+
+ Análise de tráfego com Scapy
+
+ Geração de relatórios automáticos
+
 📄 Licença
 Este projeto está licenciado sob a MIT License - consulte o arquivo LICENSE para mais detalhes.
 
-⚠️ Aviso
+⚠️ Aviso:
 Todos os scripts devem ser utilizados em ambientes controlados e autorizados para fins educacionais. A aplicação de qualquer técnica em redes ou sistemas sem permissão prévia é ilegal e antiética.
 
 
-Agora, o arquivo está pronto para ser publicado no GitHub. Se precisar de mais alguma ajuda, é só avisar!
+Com essas adições, o projeto fica mais estruturado e com informações mais completas para quem for testar ou colaborar. Se precisar de mais ajustes, é só falar!
 ::contentReference[oaicite:0]{index=0}
