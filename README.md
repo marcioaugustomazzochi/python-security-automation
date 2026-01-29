@@ -52,18 +52,3 @@ def get_cve_data():
 
 # Exemplo de uso
 get_cve_data()
-🗺️ Roadmap
- Varredura de vulnerabilidades com Nmap
-
- Coleta de dados de ameaças (CVE API)
-
- Análise de tráfego com Scapy
-
- Geração de relatórios automáticos
-
-📄 Licença
-Este projeto está licenciado sob a MIT License - consulte o arquivo LICENSE para mais detalhes.
-
-⚠️ Aviso Ético
-Todos os scripts devem ser utilizados em ambientes controlados e autorizados para fins educacionais.
-A aplicação de qualquer técnica em redes ou sistemas sem permissão prévia é ilegal e antiética.
