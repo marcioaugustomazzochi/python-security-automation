@@ -19,7 +19,6 @@ python-security-automation/
     ├── cve_output.png
     └── scapy_capture.png
 
-
 👉 Essa estrutura demonstra organização, separação de responsabilidades e maturidade técnica no GitHub.
 
 🐍 PASSO 2 — SCRIPT NMAP (VERSÃO PORTFÓLIO)
@@ -30,60 +29,66 @@ Vamos evoluir o script simples de Nmap, tornando-o executável, reutilizável e 
 import subprocess
 import sys
 
+
 def run_nmap(target):
     print(f"[+] Iniciando varredura Nmap em {target}...\n")
     command = ["nmap", "-sV", target]
     result = subprocess.run(command, capture_output=True, text=True)
 
+
     if result.stdout:
         print(result.stdout)
+
 
     if result.stderr:
         print("[!] Erro durante a execução do Nmap")
         print(result.stderr)
+
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
         print("Uso: python nmap_scan.py <alvo>")
         sys.exit(1)
 
-    run_nmap(sys.argv[1])
 
+    run_nmap(sys.argv[1])
 ▶ Execução
 python scans/nmap_scan.py 192.168.56.124
 
-
-📸 Print: prints/nmap_scan.png
+📸 Evidência: prints/nmap_scan.png
 
 🧠 PASSO 3 — THREAT INTELLIGENCE (MÓDULO SEPARADO)
 
-Este módulo realiza a coleta de dados de ameaças a partir de uma API pública de CVEs.
+Este módulo realiza a coleta de dados de ameaças a partir de uma API pública de CVEs, mantendo responsabilidades isoladas.
 
 📄 Arquivo: threat_intel/cve_collector.py
 import requests
+
 
 def get_latest_cves(limit=5):
     url = "https://cve.circl.lu/api/last"
     response = requests.get(url, timeout=10)
 
+
     if response.status_code != 200:
         print("Erro ao acessar a API de CVEs")
         return
 
+
     data = response.json()[:limit]
+
 
     print("[+] Últimas vulnerabilidades publicadas:\n")
     for cve in data:
         print(f"- {cve['id']}: {cve['summary'][:100]}...")
 
+
 if __name__ == "__main__":
     get_latest_cves()
-
 ▶ Execução
 python threat_intel/cve_collector.py
 
-
-📸 Print: prints/cve_output.png
+📸 Evidência: prints/cve_output.png
 
 🧪 PASSO 4 — ANÁLISE DE TRÁFEGO COM SCAPY (FASE OFENSIVA LEVE)
 
@@ -92,16 +97,16 @@ Captura simples de pacotes para demonstrar monitoramento e análise de tráfego 
 📄 Arquivo: traffic_analysis/scapy_sniffer.py
 from scapy.all import sniff
 
+
 def packet_callback(packet):
     if packet.haslayer("IP"):
         ip = packet["IP"]
         print(f"{ip.src} -> {ip.dst}")
 
+
 print("[+] Capturando pacotes... CTRL+C para parar")
 sniff(prn=packet_callback, count=20)
-
 ▶ Execução (Kali Linux)
 sudo python traffic_analysis/scapy_sniffer.py
 
-
-📸 Print: prints/scapy_capture.png
+📸 Evidência: prints/scapy_capture.png
