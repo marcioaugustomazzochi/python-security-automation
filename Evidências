@@ -87,7 +87,7 @@ python threat_intel/cve_collector.py
 
 🧪 PASSO 4 — ANÁLISE DE TRÁFEGO COM SCAPY (FASE OFENSIVA LEVE)
 
-Captura simples de pacotes para demonstrar monitoramento e análise de tráfego.
+Captura simples de pacotes para demonstrar monitoramento e análise de tráfego em tempo real.
 
 📄 Arquivo: traffic_analysis/scapy_sniffer.py
 from scapy.all import sniff
