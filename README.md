@@ -2,7 +2,7 @@
 
 Este projeto automatiza processos de segurança usando **Python**:
 
-- Varredura de vulnerabilidades
+- Varredura de vulnerabilities
 - Coleta de dados de ameaças
 - Análise de tráfego de rede
 
