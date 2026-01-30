@@ -19,14 +19,14 @@ O projeto busca melhorar a **resposta a incidentes de segurança** e facilitar *
   Scripts para coleta e análise de dados de fontes confiáveis (ex: CVE, feeds de ameaças).
 
 - **Análise de Tráfego de Rede**  
-  Utiliza pacotes Python para capturar e analisar pacotes de rede em tempo real.
+  Utilize pacotes Python para capturar e analisar pacotes de rede em tempo real.
 
 ---
 
 ## 🛠️ Tecnologias
 
 - **Python 3.x**
-- **Nmap** (usado via subprocesso ou pyNmap)
+- **Nmap** (usado via subprocess ou pyNmap)
 - **Scapy** (para captura e análise de pacotes)
 - **Requests** (para coleta de dados de fontes de ameaças)
 
