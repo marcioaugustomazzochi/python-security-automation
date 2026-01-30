@@ -55,9 +55,9 @@ def get_cve_data():
 
 get_cve_data()
 Licença e Aviso Ético
-Licença
+Licença:
 MIT License
 
-Aviso Ético
+Aviso Ético:
 Use apenas em ambientes controlados e autorizados.
 Qualquer uso sem permissão é ilegal e antiético.
