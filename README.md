@@ -55,7 +55,6 @@ get_cve_data()
 Licença
 MIT License
 
-
 Aviso Ético
 Use apenas em ambientes controlados e autorizados.
 Qualquer uso sem permissão é ilegal e antiético.
