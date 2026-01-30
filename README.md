@@ -1,4 +1,4 @@
-# 🛡️ Automação de Segurança em Python
+# Automação de Segurança em Python
 
 Este projeto automatiza processos de segurança usando **Python**:
 
@@ -8,31 +8,32 @@ Este projeto automatiza processos de segurança usando **Python**:
 
 ---
 
-## Funcionalidades
+# Funcionalidades
 
 - Varredura de Vulnerabilidades com Nmap  
 - Coleta de Dados de Ameaças (CVE)  
-- Análise de Tráfego de Rede  
+- Análise de Tráfego de Rede
 
 ---
 
-## Tecnologias
+# Tecnologias
 
-- Python 3.x  
-- Nmap  
-- Scapy  
-- Requests  
+- Python 3.x
+- Nmap
+- Scapy
+- Requests
 
 ---
 
-## Instalação
+# Instalação
 
 ```bash
 git clone https://github.com/marcioaugustomazzochi/python-security-automation.git
 cd python-security-automation
 pip install -r requirements.txt
 Exemplos de Uso
-Varredura de Vulnerabilidades com Nmap
+Varredura de Vulnerabilidades com Nmap:
+
 import subprocess
 
 def run_nmap(target):
@@ -41,7 +42,8 @@ def run_nmap(target):
     print(result.stdout)
 
 run_nmap("192.168.56.124")
-Coleta de Dados de Ameaças (CVE)
+Coleta de Dados de Ameaças (CVE):
+
 import requests
 
 def get_cve_data():
@@ -52,6 +54,7 @@ def get_cve_data():
         print(f"CVE ID: {entry['id']}, Descrição: {entry['summary']}")
 
 get_cve_data()
+Licença e Aviso Ético
 Licença
 MIT License
 
