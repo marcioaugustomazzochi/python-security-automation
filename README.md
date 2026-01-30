@@ -55,19 +55,12 @@ get_cve_data()
 Licença
 MIT License
 
-Aviso Ético
+---
+
+## Aviso Ético
 Use apenas em ambientes controlados e autorizados.
 Qualquer uso sem permissão é ilegal e antiético.
 
 
----
 
-### Passo 3 — Salvar e enviar para o GitHub
 
-1. Salve o arquivo localmente **em UTF-8**  
-2. Faça commit e push normalmente:
-
-```bash
-git add README.md
-git commit -m "README final pronto para GitHub"
-git push
