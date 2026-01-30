@@ -1,76 +1,148 @@
 # 🔐 Automação de Segurança em Python
 
-Este projeto tem como objetivo a **automação de processos de segurança utilizando Python**.  
-As principais funcionalidades incluem:
+Projeto voltado à **automação de processos de segurança da informação utilizando Python**, com foco em **varredura de vulnerabilidades**, **threat intelligence** e **análise de tráfego de rede**, executado **exclusivamente em ambientes controlados e autorizados**.
 
-- Varredura de vulnerabilidades em sistemas e redes  
-- Coleta de dados de ameaças de fontes públicas  
-- Análise de tráfego de rede para identificar atividades suspeitas  
+O objetivo é **demonstrar habilidades práticas** em cibersegurança, automação e boas práticas profissionais para fins **educacionais e de portfólio**.
 
-O projeto busca **melhorar a resposta a incidentes de segurança** e **facilitar análises técnicas**, respeitando as melhores práticas de **privacidade, LGPD e conformidade**.
+---
+
+## 🎯 Objetivos do Projeto
+
+- Automatizar tarefas comuns em segurança ofensiva e defensiva  
+- Facilitar análises técnicas e resposta a incidentes  
+- Demonstrar organização, clareza técnica e maturidade profissional  
+- Aplicar conceitos respeitando **LGPD, privacidade e conformidade**
 
 ---
 
 ## 📌 Funcionalidades
 
 ### 🔍 Varredura de Vulnerabilidades com Nmap
-Automatiza o uso do **Nmap** para identificar serviços, versões e possíveis vulnerabilidades em hosts.
+Automatiza o uso do **Nmap** para identificar serviços, portas abertas e versões de software em hosts de rede.
 
-### 🌐 Coleta de Dados de Ameaças
-Scripts para coleta e análise de dados de fontes confiáveis  
-(ex.: **CVE**, feeds públicos de Threat Intelligence).
+### 🌐 Coleta de Threat Intelligence
+Coleta dados de vulnerabilidades a partir de **fontes públicas confiáveis**, como APIs de CVEs.
 
 ### 📡 Análise de Tráfego de Rede
-Utiliza bibliotecas Python para **captura e análise de pacotes em tempo real**, auxiliando na detecção de atividades suspeitas.
+Captura e análise básica de pacotes de rede em tempo real utilizando **Scapy**, auxiliando na identificação de atividades suspeitas.
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## 🗂️ Estrutura do Projeto
 
-- **Python 3.x**
-- **Nmap** (via subprocess ou pyNmap)
-- **Scapy** (captura e análise de pacotes)
-- **Requests** (coleta de dados de fontes de ameaças)
+```text
+python-security-automation/
+├── README.md
+├── requirements.txt
+├── LICENSE
+├── scans/
+│   └── nmap_scan.py
+├── threat_intel/
+│   └── cve_collector.py
+├── traffic_analysis/
+│   └── scapy_sniffer.py
+├── reports/
+│   └── README.md
+└── prints/
+    ├── nmap_scan.png
+    ├── cve_output.png
+    └── scapy_capture.png
+Essa estrutura segue boas práticas de organização, facilitando manutenção, escalabilidade e leitura por recrutadores.
 
----
+🛠️ Tecnologias Utilizadas
+Python 3.x
 
-## ⚙️ Instalação
+Nmap (via subprocess ou pyNmap)
 
+Scapy (captura e análise de pacotes)
+
+Requests (coleta de dados de Threat Intelligence)
+
+Kali Linux (ambiente de testes)
+
+⚙️ Instalação
 Clone o repositório e instale as dependências:
 
-```bash
 git clone https://github.com/marcioaugustomazzochi/python-security-automation.git
 cd python-security-automation
 pip install -r requirements.txt
 💻 Exemplos de Uso
 🔍 Varredura de Vulnerabilidades com Nmap
+Arquivo: scans/nmap_scan.py
+
 import subprocess
+import sys
 
 def run_nmap(target):
-    command = f"nmap -sV {target}"
-    result = subprocess.run(
-        command,
-        shell=True,
-        capture_output=True,
-        text=True
-    )
-    print(result.stdout)
+    print(f"[+] Iniciando varredura Nmap em {target}...\n")
+    command = ["nmap", "-sV", target]
+    result = subprocess.run(command, capture_output=True, text=True)
 
-# Exemplo de uso
-run_nmap("192.168.56.124")  # Alvo: Metasploitable
-🌐 Coleta de Dados de Ameaças (CVE)
+    if result.stdout:
+        print(result.stdout)
+
+    if result.stderr:
+        print("[!] Erro durante a execução do Nmap")
+        print(result.stderr)
+
+if __name__ == "__main__":
+    if len(sys.argv) != 2:
+        print("Uso: python nmap_scan.py <alvo>")
+        sys.exit(1)
+
+    run_nmap(sys.argv[1])
+Execução:
+
+python scans/nmap_scan.py 192.168.56.124
+🌐 Coleta de Threat Intelligence (CVE)
+Arquivo: threat_intel/cve_collector.py
+
 import requests
 
-def get_cve_data():
+def get_latest_cves(limit=5):
     url = "https://cve.circl.lu/api/last"
-    response = requests.get(url)
-    data = response.json()
+    response = requests.get(url, timeout=10)
 
-    for entry in data:
-        print(f"CVE ID: {entry['id']} | Descrição: {entry['summary']}")
+    if response.status_code != 200:
+        print("Erro ao acessar a API de CVEs")
+        return
 
-# Exemplo de uso
-get_cve_data()
+    data = response.json()[:limit]
+
+    print("[+] Últimas vulnerabilidades publicadas:\n")
+    for cve in data:
+        print(f"- {cve['id']}: {cve['summary'][:100]}...")
+
+if __name__ == "__main__":
+    get_latest_cves()
+Execução:
+
+python threat_intel/cve_collector.py
+📡 Análise de Tráfego de Rede com Scapy
+Arquivo: traffic_analysis/scapy_sniffer.py
+
+from scapy.all import sniff
+
+def packet_callback(packet):
+    if packet.haslayer("IP"):
+        ip = packet["IP"]
+        print(f"{ip.src} -> {ip.dst}")
+
+print("[+] Capturando pacotes... CTRL+C para parar")
+sniff(prn=packet_callback, count=20)
+Execução (Kali Linux):
+
+sudo python traffic_analysis/scapy_sniffer.py
+📸 Evidências Técnicas
+🔍 Varredura de Vulnerabilidades – Nmap
+
+
+🌐 Threat Intelligence – CVE
+
+
+📡 Análise de Tráfego – Scapy
+
+
 🗺️ Roadmap
  Varredura de vulnerabilidades com Nmap
 
@@ -78,14 +150,18 @@ get_cve_data()
 
  Análise de tráfego com Scapy
 
- Geração de relatórios automáticos
+ Geração automática de relatórios
+
+ Integração com logs e SIEM
 
 📄 Licença
 Este projeto está licenciado sob a MIT License.
 Consulte o arquivo LICENSE para mais detalhes.
 
 ⚠️ Aviso Ético
-Todos os scripts devem ser utilizados exclusivamente em ambientes controlados e autorizados, para fins educacionais.
+Todos os scripts devem ser utilizados exclusivamente em ambientes controlados e autorizados, para fins educacionais e de aprendizado.
 
-🚫 A aplicação de qualquer técnica em redes ou sistemas sem permissão prévia é ilegal e antiética.
+🚫 A aplicação de qualquer técnica apresentada neste projeto em redes ou sistemas sem permissão prévia é ilegal e antiética.
 
+
+---
