@@ -1,47 +1,38 @@
 # 🛡️ Automação de Segurança em Python
 
-Este projeto tem como objetivo a automação de processos de segurança utilizando **Python**. As principais funcionalidades incluem:
+Este projeto automatiza processos de segurança usando **Python**:
 
-- **Varredura de vulnerabilidades** em sistemas e redes.
-- **Coleta de dados de ameaças** de fontes públicas.
-- **Análise de tráfego de rede** para identificar atividades suspeitas.
-
-O projeto busca melhorar a **resposta a incidentes de segurança** e facilitar **análises técnicas**, respeitando as melhores práticas de **privacidade** e **conformidade**.
+- Varredura de vulnerabilidades
+- Coleta de dados de ameaças
+- Análise de tráfego de rede
 
 ---
 
-## 📌 Funcionalidades
+## Funcionalidades
 
-- **Varredura de Vulnerabilidades com Nmap**  
-  Automatiza o uso do Nmap para identificar vulnerabilidades em hosts.
-
-- **Coleta de Dados de Ameaças**  
-  Scripts para coleta e análise de dados de fontes confiáveis (ex: CVE, feeds de ameaças).
-
-- **Análise de Tráfego de Rede**  
-  Utilize pacotes Python para capturar e analisar pacotes de rede em tempo real.
+- Varredura de Vulnerabilidades com Nmap
+- Coleta de Dados de Ameaças (CVE)
+- Análise de Tráfego de Rede
 
 ---
 
-## 🛠️ Tecnologias
+## Tecnologias
 
-- **Python 3.x**
-- **Nmap** (usado via subprocess ou pyNmap)
-- **Scapy** (para captura e análise de pacotes)
-- **Requests** (para coleta de dados de fontes de ameaças)
+- Python 3.x
+- Nmap
+- Scapy
+- Requests
 
 ---
 
-## ⚙️ Instalação
-
-Clone o repositório e instale as dependências:
+## Instalação
 
 ```bash
 git clone https://github.com/marcioaugustomazzochi/python-security-automation.git
 cd python-security-automation
 pip install -r requirements.txt
-💻 Exemplos de Uso
-1️⃣ Varredura de Vulnerabilidades com Nmap
+Exemplos de Uso
+Varredura de Vulnerabilidades com Nmap
 import subprocess
 
 def run_nmap(target):
@@ -49,8 +40,8 @@ def run_nmap(target):
     result = subprocess.run(command, shell=True, capture_output=True, text=True)
     print(result.stdout)
 
-run_nmap("192.168.56.124")  # Alvo: Metasploitable
-2️⃣ Coleta de Dados de Ameaças (CVE)
+run_nmap("192.168.56.124")
+Coleta de Dados de Ameaças (CVE)
 import requests
 
 def get_cve_data():
@@ -61,20 +52,22 @@ def get_cve_data():
         print(f"CVE ID: {entry['id']}, Descrição: {entry['summary']}")
 
 get_cve_data()
-🗺️ Roadmap
- Varredura de vulnerabilidades com Nmap
+Licença
+MIT License
 
- Coleta de dados de ameaças (CVE API)
+Aviso Ético
+Use apenas em ambientes controlados e autorizados.
+Qualquer uso sem permissão é ilegal e antiético.
 
- Análise de tráfego com Scapy
 
- Geração de relatórios automáticos
+---
 
-📄 Licença
-Este projeto está licenciado sob a MIT License.
-Consulte o arquivo LICENSE para mais detalhes.
+### Passo 3 — Salvar e enviar para o GitHub
 
-⚠️ Aviso Ético
-Todos os scripts devem ser utilizados exclusivamente em ambientes controlados e autorizados, para fins educacionais.
+1. Salve o arquivo localmente **em UTF-8**  
+2. Faça commit e push normalmente:
 
-🚫 A aplicação de qualquer técnica em redes ou sistemas sem permissão prévia é ilegal e antiética.
+```bash
+git add README.md
+git commit -m "README final pronto para GitHub"
+git push
