@@ -19,7 +19,7 @@ O projeto busca melhorar a **resposta a incidentes de segurança** e facilitar *
   Scripts para coleta e análise de dados de fontes confiáveis (ex: CVE, feeds de ameaças).
 
 - **Análise de Tráfego de Rede**  
-  Utiliza pacotes Python para capturar e analisar pacotes de rede em tempo real.
+  Utilize pacotes Python para capturar e analisar pacotes de rede em tempo real.
 
 ---
 
@@ -50,7 +50,7 @@ def run_nmap(target):
     print(result.stdout)
 
 # Exemplo de uso
-run_nmap("192.168.56.124")  # Alvo: Metasploitable
+run_nmap('192.168.56.124')  # Alvo: Metasploitable
 2️⃣ Coleta de Dados de Ameaças
 import requests
 
