@@ -26,9 +26,9 @@ O projeto busca melhorar a **resposta a incidentes de segurança** e facilitar *
 ## 🛠️ Tecnologias
 
 - **Python 3.x**
-- **Nmap** (via subprocess ou pyNmap)
-- **Scapy** (captura e análise de pacotes)
-- **Requests** (coleta de dados de ameaças)
+- **Nmap** (usado via subprocess ou pyNmap)
+- **Scapy** (para captura e análise de pacotes)
+- **Requests** (para coleta de dados de fontes de ameaças)
 
 ---
 
