@@ -73,3 +73,5 @@ Consulte o arquivo LICENSE para mais detalhes.
 
 ⚠️ Aviso Ético
 Todos os scripts devem ser utilizados exclusivamente em ambientes controlados e autorizados, para fins educacionais.
+
+🚫 Qualquer uso sem permissão é ilegal e antiético.
