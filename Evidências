@@ -50,7 +50,7 @@ if __name__ == "__main__":
 📌 Execução:
 
 python scans/nmap_scan.py 192.168.56.124
-👉 Salve o print em: prints/nmap_scan.png
+📸 Print: prints/nmap_scan.png
 
 🧠 PASSO 3 — THREAT INTELLIGENCE (MÓDULO SEPARADO)
 Este módulo realiza a coleta de dados de ameaças a partir de uma API pública de CVEs, mantendo a responsabilidade isolada.
