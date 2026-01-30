@@ -1,50 +1,47 @@
-utomação de Segurança em Python
+# 🔐 Automação de Segurança em Python
 
-Este projeto tem como objetivo a automação de processos de segurança utilizando Python.
+Este projeto tem como objetivo a **automação de processos de segurança utilizando Python**.  
 As principais funcionalidades incluem:
 
-Varredura de vulnerabilidades em sistemas e redes
+- Varredura de vulnerabilidades em sistemas e redes  
+- Coleta de dados de ameaças de fontes públicas  
+- Análise de tráfego de rede para identificar atividades suspeitas  
 
-Coleta de dados de ameaças de fontes públicas
+O projeto busca **melhorar a resposta a incidentes de segurança** e **facilitar análises técnicas**, respeitando as melhores práticas de **privacidade, LGPD e conformidade**.
 
-Análise de tráfego de rede para identificar atividades suspeitas
+---
 
-O projeto busca melhorar a resposta a incidentes de segurança e facilitar análises técnicas, respeitando as melhores práticas de privacidade, LGPD e conformidade.
+## 📌 Funcionalidades
 
-Funcionalidades
-Varredura de Vulnerabilidades com Nmap
+### 🔍 Varredura de Vulnerabilidades com Nmap
+Automatiza o uso do **Nmap** para identificar serviços, versões e possíveis vulnerabilidades em hosts.
 
-Automatiza o uso do Nmap para identificar serviços, versões e possíveis vulnerabilidades em hosts.
+### 🌐 Coleta de Dados de Ameaças
+Scripts para coleta e análise de dados de fontes confiáveis  
+(ex.: **CVE**, feeds públicos de Threat Intelligence).
 
-Coleta de Dados de Ameaças
+### 📡 Análise de Tráfego de Rede
+Utiliza bibliotecas Python para **captura e análise de pacotes em tempo real**, auxiliando na detecção de atividades suspeitas.
 
-Scripts para coleta e análise de dados de fontes confiáveis
-(ex.: CVE, feeds públicos de Threat Intelligence).
+---
 
-Análise de Tráfego de Rede
+## 🛠️ Tecnologias Utilizadas
 
-Utiliza bibliotecas Python para captura e análise de pacotes em tempo real, auxiliando na detecção de atividades suspeitas.
+- **Python 3.x**
+- **Nmap**
+- **Scapy**
+- **Requests**
 
-Tecnologias Utilizadas
+---
 
-Python 3.x
+## ⚙️ Instalação
 
-Nmap (via subprocess ou pyNmap)
-
-Scapy (captura e análise de pacotes)
-
-Requests (coleta de dados de fontes de ameaças)
-
-Instalação
-
-Clone o repositório e instale as dependências:
-
+```bash
 git clone https://github.com/marcioaugustomazzochi/python-security-automation.git
 cd python-security-automation
 pip install -r requirements.txt
-
-Exemplos de Uso
-Varredura de Vulnerabilidades com Nmap
+💻 Exemplos de Uso
+🔍 Varredura de Vulnerabilidades com Nmap
 import subprocess
 
 def run_nmap(target):
@@ -57,9 +54,8 @@ def run_nmap(target):
     )
     print(result.stdout)
 
-run_nmap("192.168.56.124")  # Alvo: Metasploitable
-
-Coleta de Dados de Ameaças (CVE)
+run_nmap("192.168.56.124")
+🌐 Coleta de Dados de Ameaças (CVE)
 import requests
 
 def get_cve_data():
@@ -71,9 +67,7 @@ def get_cve_data():
         print(f"CVE ID: {entry['id']} | Descrição: {entry['summary']}")
 
 get_cve_data()
-
-Roadmap
-
+🗺️ Roadmap
 Varredura de vulnerabilidades com Nmap
 
 Coleta de dados de ameaças (CVE API)
@@ -82,13 +76,13 @@ Análise de tráfego com Scapy
 
 Geração de relatórios automáticos
 
-Licença
-
+📄 Licença
 Este projeto está licenciado sob a MIT License.
 Consulte o arquivo LICENSE para mais detalhes.
 
-Aviso Ético
+⚠️ Aviso Ético
+Todos os scripts devem ser utilizados exclusivamente em ambientes controlados e autorizados.
+O uso em sistemas sem permissão é ilegal e antiético.
 
-Todos os scripts devem ser utilizados exclusivamente em ambientes controlados e autorizados, para fins educacionais.
 
-A aplicação de qualquer técnica em redes ou sistemas sem permissão prévia é ilegal e antiética.
+---
