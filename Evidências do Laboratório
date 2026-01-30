@@ -1,30 +1,42 @@
-## 🧱 PASSO 1 — ESTRUTURA PROFISSIONAL DO PROJETO
+# Python Security Automation
 
-Vamos organizar o repositório da seguinte forma:
+Projeto de automação em segurança da informação com foco em varredura de vulnerabilidades, threat intelligence e análise de tráfego em ambiente controlado.
 
-```text
+---
+
+## PASSO 1 - ESTRUTURA PROFISSIONAL DO PROJETO
+
+Organização do repositório seguindo boas práticas de separação de responsabilidades:
+
 python-security-automation/
 ├── README.md
 ├── requirements.txt
 ├── LICENSE
 ├── scans/
-│   └── nmap_scan.py
+│ └── nmap_scan.py
 ├── threat_intel/
-│   └── cve_collector.py
+│ └── cve_collector.py
 ├── traffic_analysis/
-│   └── scapy_sniffer.py
+│ └── scapy_sniffer.py
 ├── reports/
-│   └── README.md
+│ └── README.md
 └── prints/
-    ├── nmap_scan.png
-    ├── cve_output.png
-    └── scapy_capture.png
-👉 Essa estrutura demonstra organização, separação de responsabilidades e maturidade técnica no GitHub.
+├── nmap_scan.png
+├── cve_output.png
+└── scapy_capture.png
 
-🐍 PASSO 2 — SCRIPT NMAP (VERSÃO PORTFÓLIO)
-Vamos evoluir o script simples de Nmap, tornando-o executável, reutilizável e adequado para portfólio.
 
-📄 Arquivo: scans/nmap_scan.py
+Esta estrutura demonstra organização, clareza técnica e maturidade profissional no GitHub.
+
+---
+
+## PASSO 2 - SCRIPT NMAP (VERSÃO PORTFÓLIO)
+
+Script desenvolvido para automatizar varreduras de serviços utilizando Nmap, de forma reutilizável e adequada para portfólio.
+
+### Arquivo: `scans/nmap_scan.py`
+
+```python
 import subprocess
 import sys
 
@@ -48,14 +60,14 @@ if __name__ == "__main__":
         sys.exit(1)
 
     run_nmap(sys.argv[1])
-▶ Execução
+Execução
 python scans/nmap_scan.py 192.168.56.124
-📸 Evidência: prints/nmap_scan.png
+Evidência: prints/nmap_scan.png
 
-🧠 PASSO 3 — THREAT INTELLIGENCE (MÓDULO SEPARADO)
-Este módulo realiza a coleta de dados de ameaças a partir de uma API pública de CVEs, mantendo responsabilidades isoladas.
+PASSO 3 - THREAT INTELLIGENCE (MÓDULO SEPARADO)
+Módulo responsável pela coleta de informações de vulnerabilidades a partir de uma API pública de CVEs.
 
-📄 Arquivo: threat_intel/cve_collector.py
+Arquivo: threat_intel/cve_collector.py
 import requests
 
 
@@ -76,14 +88,14 @@ def get_latest_cves(limit=5):
 
 if __name__ == "__main__":
     get_latest_cves()
-▶ Execução
+Execução
 python threat_intel/cve_collector.py
-📸 Evidência: prints/cve_output.png
+Evidência: prints/cve_output.png
 
-🧪 PASSO 4 — ANÁLISE DE TRÁFEGO COM SCAPY (FASE OFENSIVA LEVE)
-Captura simples de pacotes para demonstrar monitoramento e análise de tráfego em tempo real.
+PASSO 4 - ANÁLISE DE TRÁFEGO COM SCAPY
+Captura básica de pacotes para demonstração de monitoramento e análise de tráfego em tempo real.
 
-📄 Arquivo: traffic_analysis/scapy_sniffer.py
+Arquivo: traffic_analysis/scapy_sniffer.py
 from scapy.all import sniff
 
 
@@ -95,6 +107,7 @@ def packet_callback(packet):
 
 print("[+] Capturando pacotes... CTRL+C para parar")
 sniff(prn=packet_callback, count=20)
-▶ Execução (Kali Linux)
+Execução (Kali Linux)
 sudo python traffic_analysis/scapy_sniffer.py
-📸 Evidência: prints/scapy_capture.png
+Evidência: prints/scapy_capture.png
+
