@@ -26,7 +26,7 @@ O projeto busca melhorar a **resposta a incidentes de segurança** e facilitar *
 ## 🛠️ Tecnologias
 
 - **Python 3.x**
-- **Nmap** (usado via subprocess ou pyNmap)
+- **Nmap** (usado via subprocesso ou pyNmap)
 - **Scapy** (para captura e análise de pacotes)
 - **Requests** (para coleta de dados de fontes de ameaças)
 
@@ -80,6 +80,3 @@ Consulte o arquivo LICENSE para mais detalhes.
 Todos os scripts devem ser utilizados exclusivamente em ambientes controlados e autorizados para fins educacionais.
 
 A aplicação de qualquer técnica em redes ou sistemas sem permissão prévia é ilegal e antiética.
-
-
----
