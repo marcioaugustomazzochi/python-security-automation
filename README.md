@@ -52,6 +52,7 @@ def get_cve_data():
         print(f"CVE ID: {entry['id']}, Descrição: {entry['summary']}")
 
 get_cve_data()
+
 Licença e Aviso Ético
 Licença:
 MIT License
