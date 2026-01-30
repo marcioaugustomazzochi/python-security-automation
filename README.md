@@ -32,7 +32,7 @@ git clone https://github.com/marcioaugustomazzochi/python-security-automation.gi
 cd python-security-automation
 pip install -r requirements.txt
 Exemplos de Uso
-Varredura de Vulnerabilidades com Nmap:
+Varredura de Vulnerabilidades com Nmap
 
 import subprocess
 
@@ -42,7 +42,7 @@ def run_nmap(target):
     print(result.stdout)
 
 run_nmap("192.168.56.124")
-Coleta de Dados de Ameaças (CVE):
+Coleta de Dados de Ameaças (CVE)
 
 import requests
 
