@@ -1,10 +1,11 @@
 # 🛡️ Automação de Segurança em Python
 
-Este projeto tem como objetivo a automação de processos de segurança utilizando **Python**. As principais funcionalidades incluem:
+Este projeto tem como objetivo a automação de processos de segurança utilizando **Python**.  
+As principais funcionalidades incluem:
 
-- **Varredura de vulnerabilidades** em sistemas e redes.
-- **Coleta de dados de ameaças** de fontes públicas.
-- **Análise de tráfego de rede** para identificar atividades suspeitas.
+- **Varredura de vulnerabilidades** em sistemas e redes  
+- **Coleta de dados de ameaças** de fontes públicas  
+- **Análise de tráfego de rede** para identificar atividades suspeitas  
 
 O projeto busca melhorar a **resposta a incidentes de segurança** e facilitar **análises técnicas**, respeitando as melhores práticas de **privacidade** e **conformidade**.
 
@@ -19,16 +20,16 @@ O projeto busca melhorar a **resposta a incidentes de segurança** e facilitar *
   Scripts para coleta e análise de dados de fontes confiáveis (ex: CVE, feeds de ameaças).
 
 - **Análise de Tráfego de Rede**  
-  Utilize pacotes Python para capturar e analisar pacotes de rede em tempo real.
+  Utiliza pacotes Python para capturar e analisar pacotes de rede em tempo real.
 
 ---
 
 ## 🛠️ Tecnologias
 
-- **Python 3.x**
-- **Nmap** (usado via subprocesso ou pyNmap)
-- **Scapy** (para captura e análise de pacotes)
-- **Requests** (para coleta de dados de fontes de ameaças)
+- **Python 3.x**  
+- **Nmap** (usado via subprocesso ou pyNmap)  
+- **Scapy** (para captura e análise de pacotes)  
+- **Requests** (para coleta de dados de fontes de ameaças)  
 
 ---
 
@@ -66,13 +67,13 @@ def get_cve_data():
 # Exemplo de uso
 get_cve_data()
 🗺️ Roadmap
-Varredura de vulnerabilidades com Nmap
+✅ Varredura de vulnerabilidades com Nmap
 
-Coleta de dados de ameaças (CVE API)
+✅ Coleta de dados de ameaças (CVE API)
 
-Análise de tráfego com Scapy
+🔜 Análise de tráfego com Scapy
 
-Geração de relatórios automáticos
+🔜 Geração de relatórios automáticos
 
 📄 Licença
 Este projeto está licenciado sob a MIT License.
@@ -82,3 +83,7 @@ Consulte o arquivo LICENSE para mais detalhes.
 Todos os scripts devem ser utilizados exclusivamente em ambientes controlados e autorizados, para fins educacionais.
 
 🚫 A aplicação de qualquer técnica em redes ou sistemas sem permissão prévia é ilegal e antiética.
+
+Código
+
+---
