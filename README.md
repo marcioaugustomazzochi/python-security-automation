@@ -84,6 +84,4 @@ Todos os scripts devem ser utilizados exclusivamente em ambientes controlados e 
 
 🚫 A aplicação de qualquer técnica em redes ou sistemas sem permissão prévia é ilegal e antiética.
 
-Código
-
----
+C
