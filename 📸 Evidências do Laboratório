@@ -1,0 +1,109 @@
+🧱 PASSO 1 — Estrutura profissional do projeto
+
+Vamos organizar o repositório assim:
+
+python-security-automation/
+├── README.md
+├── requirements.txt
+├── LICENSE
+├── scans/
+│   └── nmap_scan.py
+├── threat_intel/
+│   └── cve_collector.py
+├── traffic_analysis/
+│   └── scapy_sniffer.py
+├── reports/
+│   └── README.md
+└── prints/
+    ├── nmap_scan.png
+    ├── cve_output.png
+    └── scapy_capture.png
+
+
+👉 Isso grita maturidade técnica no GitHub.
+
+🐍 PASSO 2 — Script Nmap “versão portfólio”
+
+Vamos melhorar aquele script simples e deixar executável + reutilizável.
+
+📄 scans/nmap_scan.py
+
+import subprocess
+import sys
+
+def run_nmap(target):
+    print(f"[+] Iniciando varredura Nmap em {target}...\n")
+    command = ["nmap", "-sV", target]
+    result = subprocess.run(command, capture_output=True, text=True)
+
+    if result.stdout:
+        print(result.stdout)
+
+    if result.stderr:
+        print("[!] Erro durante a execução do Nmap")
+        print(result.stderr)
+
+if __name__ == "__main__":
+    if len(sys.argv) != 2:
+        print("Uso: python nmap_scan.py <alvo>")
+        sys.exit(1)
+
+    run_nmap(sys.argv[1])
+
+
+📌 Execução:
+
+python scans/nmap_scan.py 192.168.56.124
+
+
+👉 Tire print do terminal depois disso (vai pro prints/).
+
+🧠 PASSO 3 — Threat Intelligence separada
+
+📄 threat_intel/cve_collector.py
+
+import requests
+
+def get_latest_cves(limit=5):
+    url = "https://cve.circl.lu/api/last"
+    response = requests.get(url, timeout=10)
+
+    if response.status_code != 200:
+        print("Erro ao acessar API de CVEs")
+        return
+
+    data = response.json()[:limit]
+
+    print("[+] Últimas vulnerabilidades publicadas:\n")
+    for cve in data:
+        print(f"- {cve['id']}: {cve['summary'][:100]}...")
+
+if __name__ == "__main__":
+    get_latest_cves()
+
+
+📌 Execução:
+
+python threat_intel/cve_collector.py
+
+
+📸 Print → prints/cve_output.png
+
+🧪 PASSO 4 — Próxima arma: Scapy (fase ofensiva leve)
+
+📄 traffic_analysis/scapy_sniffer.py
+
+from scapy.all import sniff
+
+def packet_callback(packet):
+    if packet.haslayer("IP"):
+        ip = packet["IP"]
+        print(f"{ip.src} -> {ip.dst}")
+
+print("[+] Capturando pacotes... CTRL+C para parar")
+sniff(prn=packet_callback, count=20)
+
+
+📌 Execução (Kali):
+
+sudo python traffic_analysis/scapy_sniffer.py
