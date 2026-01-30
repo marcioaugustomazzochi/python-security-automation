@@ -10,18 +10,18 @@ Este projeto automatiza processos de segurança usando **Python**:
 
 ## Funcionalidades
 
-- Varredura de Vulnerabilidades com Nmap
-- Coleta de Dados de Ameaças (CVE)
-- Análise de Tráfego de Rede
+- Varredura de Vulnerabilidades com Nmap  
+- Coleta de Dados de Ameaças (CVE)  
+- Análise de Tráfego de Rede  
 
 ---
 
 ## Tecnologias
 
-- Python 3.x
-- Nmap
-- Scapy
-- Requests
+- Python 3.x  
+- Nmap  
+- Scapy  
+- Requests  
 
 ---
 
@@ -58,7 +58,3 @@ MIT License
 Aviso Ético
 Use apenas em ambientes controlados e autorizados.
 Qualquer uso sem permissão é ilegal e antiético.
-
-
-
-
