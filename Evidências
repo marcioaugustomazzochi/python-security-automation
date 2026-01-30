@@ -1,5 +1,4 @@
-## 🧱 PASSO 1 — Estrutura Profissional do Projeto
----
+# 🧱 PASSO 1 — ESTRUTURA PROFISSIONAL DO PROJETO
 
 Vamos organizar o repositório da seguinte forma:
 
@@ -22,8 +21,8 @@ python-security-automation/
     └── scapy_capture.png
 👉 Essa estrutura demonstra organização, separação de responsabilidades e maturidade técnica no GitHub.
 
-🐍 PASSO 2 — Script Nmap (Versão Portfólio)
-Vamos evoluir o script básico de Nmap, tornando-o executável, reutilizável e adequado para portfólio.
+🐍 PASSO 2 — SCRIPT NMAP (VERSÃO PORTFÓLIO)
+Vamos evoluir o script simples de Nmap, tornando-o executável, reutilizável e adequado para portfólio.
 
 📄 Arquivo: scans/nmap_scan.py
 
@@ -51,10 +50,10 @@ if __name__ == "__main__":
 📌 Execução:
 
 python scans/nmap_scan.py 192.168.56.124
-📸 Após a execução, capture um print do terminal e salve em prints/nmap_scan.png.
+👉 Tire um print do terminal e salve em: prints/nmap_scan.png
 
-🧠 PASSO 3 — Threat Intelligence Separada
-Coleta de dados de ameaças utilizando uma API pública de CVEs, mantendo o módulo isolado.
+🧠 PASSO 3 — THREAT INTELLIGENCE (MÓDULO SEPARADO)
+Este módulo realiza a coleta de dados de ameaças a partir de uma API pública de CVEs, mantendo a responsabilidade isolada.
 
 📄 Arquivo: threat_intel/cve_collector.py
 
@@ -79,10 +78,10 @@ if __name__ == "__main__":
 📌 Execução:
 
 python threat_intel/cve_collector.py
-📸 Salve o print do resultado em prints/cve_output.png.
+📸 Print: prints/cve_output.png
 
-🧪 PASSO 4 — Análise de Tráfego com Scapy (Fase Ofensiva Leve)
-Captura simples de pacotes para demonstrar análise de tráfego em tempo real.
+🧪 PASSO 4 — ANÁLISE DE TRÁFEGO COM SCAPY (FASE OFENSIVA LEVE)
+Captura simples de pacotes para demonstrar monitoramento e análise de tráfego em tempo real.
 
 📄 Arquivo: traffic_analysis/scapy_sniffer.py
 
@@ -98,4 +97,5 @@ sniff(prn=packet_callback, count=20)
 📌 Execução (Kali Linux):
 
 sudo python traffic_analysis/scapy_sniffer.py
-📸 Capture a saída e salve em prints/scapy_capture.png.
+📸 Print: prints/scapy_capture.png
+
