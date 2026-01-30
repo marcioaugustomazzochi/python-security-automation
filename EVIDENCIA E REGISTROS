@@ -1,14 +1,14 @@
 # Automação de Segurança em Python
 
-Projeto voltado à automação de processos de segurança da informação utilizando Python.
+Projeto focado na automação de processos de segurança da informação utilizando Python.
 
-As principais funcionalidades incluem:
+Funcionalidades principais:
 
 - Varredura de vulnerabilidades em sistemas e redes
 - Coleta de dados de ameaças de fontes públicas
 - Análise de tráfego de rede para identificação de atividades suspeitas
 
-O projeto tem como objetivo melhorar a resposta a incidentes de segurança e facilitar análises técnicas, respeitando boas práticas de privacidade, LGPD e conformidade.
+O objetivo é apoiar análises técnicas e resposta a incidentes, respeitando boas práticas de privacidade, LGPD e conformidade.
 
 ---
 
@@ -16,30 +16,28 @@ O projeto tem como objetivo melhorar a resposta a incidentes de segurança e fac
 
 ### Varredura de Vulnerabilidades com Nmap
 
-Automatiza o uso do Nmap para identificar serviços, versões e possíveis vulnerabilidades em hosts de rede.
+Automatiza o uso do Nmap para identificar serviços, versões e possíveis vulnerabilidades em hosts.
 
 ### Coleta de Dados de Ameaças
 
-Scripts para coleta e análise de dados de fontes públicas e confiáveis, como bases de CVE e feeds de Threat Intelligence.
+Scripts para coleta e análise de dados de fontes públicas confiáveis, como bases de CVE.
 
 ### Análise de Tráfego de Rede
 
-Captura e análise básica de pacotes de rede em tempo real utilizando bibliotecas Python, auxiliando na detecção de atividades suspeitas.
+Captura e análise básica de pacotes de rede em tempo real utilizando Python.
 
 ---
 
 ## Tecnologias Utilizadas
 
 - Python 3.x
-- Nmap (executado via subprocess ou pyNmap)
+- Nmap
 - Scapy
 - Requests
 
 ---
 
 ## Instalação
-
-Clone o repositório e instale as dependências:
 
 ```bash
 git clone https://github.com/marcioaugustomazzochi/python-security-automation.git
@@ -59,7 +57,6 @@ def run_nmap(target):
     )
     print(result.stdout)
 
-# Exemplo de uso
 run_nmap("192.168.56.124")
 Coleta de Dados de Ameaças (CVE)
 import requests
@@ -72,14 +69,13 @@ def get_cve_data():
     for entry in data:
         print(f"CVE ID: {entry['id']} | Descrição: {entry['summary']}")
 
-# Exemplo de uso
 get_cve_data()
 Roadmap
 Varredura de vulnerabilidades com Nmap
 
 Coleta de dados de ameaças via API de CVE
 
-Análise de tráfego de rede com Scapy
+Análise de tráfego com Scapy
 
 Geração automática de relatórios
 
@@ -88,9 +84,9 @@ Este projeto está licenciado sob a MIT License.
 Consulte o arquivo LICENSE para mais detalhes.
 
 Aviso Ético
-Todos os scripts devem ser utilizados exclusivamente em ambientes controlados e autorizados, para fins educacionais.
+Todos os scripts devem ser utilizados exclusivamente em ambientes controlados e autorizados.
 
-A aplicação de qualquer técnica apresentada neste projeto em redes ou sistemas sem permissão prévia é ilegal e antiética.
+A aplicação destas técnicas em redes ou sistemas sem permissão prévia é ilegal.
 
 
 ---
