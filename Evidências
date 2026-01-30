@@ -1,4 +1,4 @@
-# 🧱 PASSO 1 — ESTRUTURA PROFISSIONAL DO PROJETO
+## 🧱 **PASSO 1 — ESTRUTURA PROFISSIONAL DO PROJETO**
 
 Vamos organizar o repositório da seguinte forma:
 
@@ -50,7 +50,7 @@ if __name__ == "__main__":
 📌 Execução:
 
 python scans/nmap_scan.py 192.168.56.124
-👉 Tire um print do terminal e salve em: prints/nmap_scan.png
+👉 Salve o print em: prints/nmap_scan.png
 
 🧠 PASSO 3 — THREAT INTELLIGENCE (MÓDULO SEPARADO)
 Este módulo realiza a coleta de dados de ameaças a partir de uma API pública de CVEs, mantendo a responsabilidade isolada.
@@ -98,4 +98,3 @@ sniff(prn=packet_callback, count=20)
 
 sudo python traffic_analysis/scapy_sniffer.py
 📸 Print: prints/scapy_capture.png
-
