@@ -1,7 +1,8 @@
-🧱 PASSO 1 — ESTRUTURA PROFISSIONAL DO PROJETO
+## 🧱 PASSO 1 — ESTRUTURA PROFISSIONAL DO PROJETO
 
 Vamos organizar o repositório da seguinte forma:
 
+```text
 python-security-automation/
 ├── README.md
 ├── requirements.txt
@@ -18,11 +19,9 @@ python-security-automation/
     ├── nmap_scan.png
     ├── cve_output.png
     └── scapy_capture.png
-
 👉 Essa estrutura demonstra organização, separação de responsabilidades e maturidade técnica no GitHub.
 
 🐍 PASSO 2 — SCRIPT NMAP (VERSÃO PORTFÓLIO)
-
 Vamos evoluir o script simples de Nmap, tornando-o executável, reutilizável e adequado para portfólio.
 
 📄 Arquivo: scans/nmap_scan.py
@@ -35,10 +34,8 @@ def run_nmap(target):
     command = ["nmap", "-sV", target]
     result = subprocess.run(command, capture_output=True, text=True)
 
-
     if result.stdout:
         print(result.stdout)
-
 
     if result.stderr:
         print("[!] Erro durante a execução do Nmap")
@@ -50,15 +47,12 @@ if __name__ == "__main__":
         print("Uso: python nmap_scan.py <alvo>")
         sys.exit(1)
 
-
     run_nmap(sys.argv[1])
 ▶ Execução
 python scans/nmap_scan.py 192.168.56.124
-
 📸 Evidência: prints/nmap_scan.png
 
 🧠 PASSO 3 — THREAT INTELLIGENCE (MÓDULO SEPARADO)
-
 Este módulo realiza a coleta de dados de ameaças a partir de uma API pública de CVEs, mantendo responsabilidades isoladas.
 
 📄 Arquivo: threat_intel/cve_collector.py
@@ -69,14 +63,11 @@ def get_latest_cves(limit=5):
     url = "https://cve.circl.lu/api/last"
     response = requests.get(url, timeout=10)
 
-
     if response.status_code != 200:
         print("Erro ao acessar a API de CVEs")
         return
 
-
     data = response.json()[:limit]
-
 
     print("[+] Últimas vulnerabilidades publicadas:\n")
     for cve in data:
@@ -87,11 +78,9 @@ if __name__ == "__main__":
     get_latest_cves()
 ▶ Execução
 python threat_intel/cve_collector.py
-
 📸 Evidência: prints/cve_output.png
 
 🧪 PASSO 4 — ANÁLISE DE TRÁFEGO COM SCAPY (FASE OFENSIVA LEVE)
-
 Captura simples de pacotes para demonstrar monitoramento e análise de tráfego em tempo real.
 
 📄 Arquivo: traffic_analysis/scapy_sniffer.py
@@ -108,5 +97,4 @@ print("[+] Capturando pacotes... CTRL+C para parar")
 sniff(prn=packet_callback, count=20)
 ▶ Execução (Kali Linux)
 sudo python traffic_analysis/scapy_sniffer.py
-
 📸 Evidência: prints/scapy_capture.png
