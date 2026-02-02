@@ -1,3 +1,4 @@
+<!-- Badges -->
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
@@ -6,6 +7,7 @@
 
 Projeto criado para fins **educacionais**, laboratório prático e **portfólio profissional em Cibersegurança**.
 
+---
 
 ## 🎯 Objetivos do Projeto
 - Automatizar tarefas comuns de **segurança ofensiva e defensiva**  
@@ -13,6 +15,7 @@ Projeto criado para fins **educacionais**, laboratório prático e **portfólio 
 - Facilitar **análises técnicas** e **coleta de evidências**  
 - Demonstrar habilidades práticas em **Cybersecurity & Python**
 
+---
 
 ## ⚙️ Funcionalidades
 
@@ -28,6 +31,7 @@ Projeto criado para fins **educacionais**, laboratório prático e **portfólio 
 - Captura e inspeção de pacotes com **Scapy**  
 - Base para identificação de **comportamentos suspeitos**
 
+---
 
 ## 🧰 Tecnologias Utilizadas
 - **Python 3.x**  
@@ -36,6 +40,7 @@ Projeto criado para fins **educacionais**, laboratório prático e **portfólio 
 - **Requests**  
 - **Kali Linux** (ambiente de laboratório)
 
+---
 
 ## 📁 Estrutura do Projeto
 
@@ -53,37 +58,32 @@ python-security-automation/
 ├── LICENSE
 └── README.md
 🚀 Instalação
-bash
 git clone https://github.com/marcioaugustomazzochi/python-security-automation.git
 cd python-security-automation
 pip install -r requirements.txt
 ▶️ Exemplos de Uso
 🔎 Varredura de Vulnerabilidades com Nmap
-bash
 python scans/nmap_scan.py 192.168.56.124
 Exemplo de alvo: Metasploitable em laboratório virtualizado.
 
 🛡️ Coleta de CVEs Recentes
-bash
 python threat_intel/cve_collector.py
 🌐 Análise de Tráfego de Rede
-bash
 python traffic_analysis/scapy_sniffer.py
 🗺️ Roadmap
-[x] Varredura de vulnerabilidades com Nmap
+ Varredura de vulnerabilidades com Nmap
 
-[x] Coleta de dados de ameaças (CVE API)
+ Coleta de dados de ameaças (CVE API)
 
-[x] Análise avançada de tráfego com Scapy
+ Análise avançada de tráfego com Scapy
 
-[ ] Geração automática de relatórios (TXT / HTML / PDF)
+ Geração automática de relatórios (TXT / HTML / PDF)
 
-[ ] Integração com logs e SIEM (futuro)
+ Integração com logs e SIEM (futuro)
 
 📘 Documentation
 Esta seção documenta as ferramentas, metodologia e principais descobertas do projeto, realizado em ambiente controlado (Kali Linux + Metasploitable).
 
-text
 documentation/
 ├── kali-tools.md
 ├── methodology.md
@@ -108,11 +108,10 @@ Todas as atividades e documentação descritas neste projeto foram realizadas ex
 🚫 Qualquer uso sem permissão é ilegal e antiético.
 
 📜 Licença
-Este projeto está licenciado sob a MIT License.
-Consulte o arquivo LICENSE para mais detalhes.
+Este projeto está licenciado sob a MIT License. Consulte o arquivo LICENSE para mais detalhes.
 
 👤 Autor
-Márcio Augusto Mazzocchi  
+Márcio Augusto Mazzocchi
 🔐 Segurança da Informação | Cibersegurança | Automação com Python
 💻 GitHub: marcioaugustomazzochi
 
