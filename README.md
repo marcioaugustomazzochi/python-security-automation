@@ -1,6 +1,6 @@
 🔐 Automação de Segurança em Python
 
-Projeto prático de automação de segurança da informação desenvolvido em Python, com foco em varredura de vulnerabilidades, coleta de inteligência de ameaças e análise de tráfego de rede, aplicado em ambientes controlados e autorizados.
+Projeto prático de automação de segurança da informação desenvolvido em Python, com foco em varredura de vulnerabilidades, coleta de inteligência de ameaças e análise de tráfego de rede, aplicado exclusivamente em ambientes controlados e autorizados.
 
 💡 Projeto criado para fins educacionais, laboratório prático e portfólio profissional em Cibersegurança.
 
@@ -8,14 +8,13 @@ Projeto prático de automação de segurança da informação desenvolvido em Py
 
 Automatizar tarefas comuns de segurança ofensiva e defensiva
 
-Integrar ferramentas amplamente utilizadas no mercado
+Integrar ferramentas amplamente utilizadas no mercado de Cibersegurança
 
 Facilitar análises técnicas e coleta de evidências
 
 Demonstrar habilidades práticas em Cybersecurity & Python
 
 ⚙️ Funcionalidades
-
 🔎 Varredura de Vulnerabilidades
 
 Execução automatizada de scans com Nmap
@@ -26,7 +25,7 @@ Identificação de serviços e versões expostas
 
 Consulta a APIs públicas de CVE
 
-Exibição de vulnerabilidades recentes e descrições
+Exibição de vulnerabilidades recentes e descrições técnicas
 
 🌐 Análise de Tráfego de Rede
 
