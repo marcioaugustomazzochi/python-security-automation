@@ -1,3 +1,7 @@
+# 🔐 Automação de Segurança em Python
+
+Projeto prático de **automação de segurança da informação**, desenvolvido em **Python**, com foco em **varredura de vulnerabilidades**, **coleta de inteligência de ameaças** e **análise de tráfego de rede**, aplicado **exclusivamente em ambientes controlados e autorizados**.
+
 > 💡 Projeto criado para fins educacionais, laboratório prático e **portfólio profissional em Cibersegurança**.
 
 ---
@@ -89,3 +93,4 @@ Consulte o arquivo LICENSE para mais detalhes.
 Márcio Augusto Mazzocchi
 🔐 Segurança da Informação | Cibersegurança | Automação com Python
 💻 GitHub: https://github.com/marcioaugustomazzochi
+
