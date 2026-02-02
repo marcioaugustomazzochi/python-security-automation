@@ -1,87 +1,164 @@
-# 🔧 Kali Linux Tools Documentation
+# Kali Linux Tools Used
 
-Este documento descreve as **ferramentas utilizadas** na fase de enumeração automatizada do projeto **Automação de Segurança em Python**.
+Este documento descreve as **ferramentas empregadas durante a fase de enumeração automatizada**
+do projeto **Automação de Segurança em Python**, executado em ambiente de laboratório
+controlado e autorizado (Kali Linux + Metasploitable).
 
-## Ferramentas Utilizadas
+---
 
-- **Nmap** – varredura de portas, identificação de serviços e versões
-- **Python 3** – scripts de automação integrando Nmap e processando resultados
-- **NSE Scripts** – scripts específicos para enumeração:
-  - `smb-enum.sh` / `smb-enum-users.nse`
-  - `ftp-anon.nse`, `ftp-syst.nse`
-  - `http-title.nse`, `http-headers.nse`, `http-methods.nse`, `http-enum.nse`
-  - `nfs-showmount.nse`, `nfs-ls.nse`
+## Ferramentas Principais
 
-## ✅ Observações
+### Nmap
+Ferramenta central para **descoberta de serviços, identificação de versões e enumeração avançada**.
+Foi utilizada tanto em modo tradicional quanto integrada a scripts Python para automação.
 
-- Todas as ferramentas foram executadas em **Kali Linux** dentro de um ambiente virtualizado seguro.
-- Os scripts NSE permitiram automatizar a coleta de informações de serviços SMB, FTP, HTTP e NFS.
-- As descobertas foram documentadas para portfólio e análise técnica.
+Principais usos:
+- Varredura de portas TCP
+- Identificação de serviços e versões
+- Execução de scripts NSE direcionados
 
-2️⃣ methodology.md
-# 🧭 Metodologia de Enumeração
+### Python 3
+Linguagem utilizada para **orquestrar os processos de enumeração**, automatizando comandos,
+padronizando saídas e facilitando a repetibilidade dos testes.
 
-Este documento descreve a **metodologia profissional** aplicada durante o projeto, garantindo organização e clareza.
+Funções principais:
+- Execução automatizada de scans
+- Integração com Nmap
+- Organização e padronização de resultados
 
-## 1. Reconhecimento e Enumeração Automática
+### NSE (Nmap Scripting Engine)
+Scripts especializados utilizados para enumeração específica de serviços:
 
-A enumeração foi realizada utilizando scripts Python integrados com Nmap, abrangendo os seguintes serviços:
+- SMB: enumeração de usuários, compartilhamentos e versão
+- FTP: verificação de acesso anônimo e identificação de banners
+- HTTP: enumeração de diretórios, headers, métodos e títulos
+- NFS: listagem de compartilhamentos acessíveis
 
-### 🔹 SMB
-- Verificação de versão do Samba (`3.0.20`)  
-- Listagem de compartilhamentos (`tmp` com READ/WRITE)  
-- Enumeração de usuários
+---
 
-### 🔹 FTP
-- Varredura da porta 21  
-- Identificação do servidor (`vsftpd 2.3.4`)  
-- Verificação de login anônimo permitido
+## Considerações Técnicas
 
-### 🔹 HTTP
-- Varredura das portas 80 e 8180  
-- Identificação de servidor web (`Apache/2.2.8`, `Apache Tomcat/5.5`)  
-- Enumeração de diretórios: `/phpinfo.php`, `/phpMyAdmin/`, `/tikiwiki/`  
-- Coleta de títulos, headers e métodos HTTP suportados
+- Todas as ferramentas foram executadas em **ambiente virtualizado isolado**
+- Nenhuma atividade foi realizada fora de laboratório autorizado
+- Os resultados obtidos foram utilizados exclusivamente para **aprendizado técnico e portfólio**
+✅ documentation/methodology.md (METODOLOGIA REAL DE PENTEST)
+# Metodologia de Enumeração
 
-### 🔹 NFS
-- Varredura da porta 2049  
-- Listagem de compartilhamentos NFS acessíveis
+Este documento descreve a **metodologia técnica aplicada** durante o projeto,
+seguindo práticas comuns em atividades profissionais de pentest e security assessment.
 
-## 2. Ferramentas e Scripts
+---
 
-- Scripts Python personalizados (`scans/*.py`)  
-- NSE Scripts integrados via Nmap para automação  
-- Resultados salvos e documentados para portfólio
+## 1. Enumeração Automatizada
 
-3️⃣ findings.md
-# 📝 Principais Descobertas
+A enumeração foi realizada por meio de **scripts Python integrados ao Nmap**,
+permitindo rapidez, repetibilidade e organização dos resultados.
 
-Este documento apresenta os **resultados obtidos** durante a enumeração automatizada.
+Os serviços enumerados foram identificados previamente em uma varredura inicial.
 
-## 🔹 SMB
-- Versão do Samba: **3.0.20**  
-- Compartilhamento identificado: `tmp` com **READ/WRITE**  
-- Lista de usuários: obtida via script
+---
 
-## 🔹 FTP
-- Porta: 21/tcp  
-- Servidor: **vsftpd 2.3.4**  
-- Login anônimo permitido  
-- Diretórios acessíveis e banners coletados
+## 2. Enumeração por Serviço
 
-## 🔹 HTTP
-- Porta 80/tcp – Apache/2.2.8  
-- Porta 8180/tcp – Apache Tomcat/5.5  
-- Diretórios e arquivos interessantes:
-  - `/phpinfo.php` – arquivo de informações PHP  
-  - `/phpMyAdmin/`  
-  - `/tikiwiki/`  
-  - `/test/`, `/doc/`, `/icons/`  
-- Métodos suportados: GET, HEAD, POST, OPTIONS
+### SMB (Server Message Block)
+- Identificação da versão do serviço Samba
+- Enumeração de compartilhamentos acessíveis
+- Verificação de permissões de leitura e escrita
+- Enumeração de usuários disponíveis
 
-## 🔹 NFS
-- Porta 2049/tcp aberta  
-- Compartilhamentos acessíveis listados
+### FTP
+- Identificação do serviço e versão do servidor
+- Verificação de autenticação anônima
+- Coleta de banners e informações do sistema
+- Listagem de diretórios acessíveis
 
-## ⚠️ Observações Éticas
-Todas as descobertas foram realizadas **em ambiente controlado**, com autorização explícita e para fins educacionais e de portf
+### HTTP
+- Identificação de servidores web e tecnologias
+- Coleta de headers HTTP
+- Enumeração de métodos suportados
+- Descoberta de diretórios e arquivos sensíveis
+
+### NFS
+- Identificação do serviço NFS ativo
+- Enumeração de compartilhamentos exportados
+- Verificação de acesso sem autenticação
+
+---
+
+## 3. Organização dos Resultados
+
+- Cada enumeração foi executada por script dedicado
+- Evidências foram coletadas e organizadas para documentação
+- Resultados relevantes foram separados para análise técnica
+✅ documentation/findings.md (ACHADOS DE VERDADE)
+# Principais Descobertas
+
+Este documento apresenta os **achados técnicos identificados**
+durante a enumeração automatizada do ambiente Metasploitable.
+
+---
+
+## SMB
+
+- Serviço identificado: **Samba 3.0.20**
+- Compartilhamento acessível: `tmp`
+- Permissões detectadas: **READ / WRITE**
+- Enumeração de usuários realizada com sucesso
+
+**Impacto:**  
+Permite movimentação lateral, upload de arquivos e possível execução remota
+em cenários reais.
+
+---
+
+## FTP
+
+- Porta: 21/TCP
+- Serviço: **vsftpd 2.3.4**
+- Autenticação anônima: **HABILITADA**
+- Acesso a diretórios sem credenciais
+
+**Impacto:**  
+Exposição de arquivos e possibilidade de upload/download não autorizado.
+
+---
+
+## HTTP
+
+- Porta 80/TCP: Apache 2.2.8
+- Porta 8180/TCP: Apache Tomcat 5.5
+
+Diretórios e arquivos identificados:
+- `/phpinfo.php`
+- `/phpMyAdmin/`
+- `/tikiwiki/`
+- `/test/`
+- `/doc/`
+
+Métodos suportados:
+- GET
+- HEAD
+- POST
+- OPTIONS
+
+**Impacto:**  
+Exposição de informações sensíveis, superfícies de ataque ampliadas
+e possibilidade de exploração de aplicações web vulneráveis.
+
+---
+
+## NFS
+
+- Porta 2049/TCP aberta
+- Compartilhamentos NFS enumerados
+- Acesso identificado sem autenticação
+
+**Impacto:**  
+Possibilidade de acesso direto ao sistema de arquivos remoto.
+
+---
+
+## Nota Ética
+
+Todos os testes foram realizados **exclusivamente em ambiente de laboratório autorizado**,
+com finalidade educacional e demonstração técnica em portfólio profissional.
