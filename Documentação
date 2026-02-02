@@ -45,6 +45,17 @@ python threat_intel/cve_collector.py
 🌐 Análise de Tráfego de Rede
 bash
 python traffic_analysis/scapy_sniffer.py
+🗺️ Roadmap
+[x] Varredura de vulnerabilidades com Nmap
+
+[x] Coleta de dados de ameaças (CVE API)
+
+[x] Análise avançada de tráfego com Scapy
+
+[ ] Geração automática de relatórios (TXT / HTML / PDF)
+
+[ ] Integração com logs e SIEM (futuro)
+
 📘 Documentation
 Esta seção documenta as ferramentas, metodologia e principais descobertas do projeto, realizado em ambiente controlado (Kali Linux + Metasploitable).
 
@@ -82,3 +93,9 @@ Márcio Augusto Mazzocchi
 💻 GitHub: marcioaugustomazzochi
 
 Código
+
+---
+
+👉 Se você colar esse conteúdo no GitHub, os títulos vão aparecer grandes e destacados, os negritos funcionarão e os blocos de código ficarão separados corretamente.  
+
+Quer que eu monte também os arquivos internos (`kali-tools.md`, `methodology.md`, `findings.
