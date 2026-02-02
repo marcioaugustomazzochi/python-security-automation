@@ -1,12 +1,3 @@
----
-
-## ✅ VERSÃO 100% CORRIGIDA (cole direto no README.md)
-
-```md
-# 🔐 Automação de Segurança em Python
-
-Projeto prático de **automação de segurança da informação**, desenvolvido em **Python**, com foco em **varredura de vulnerabilidades**, **coleta de inteligência de ameaças** e **análise de tráfego de rede**, aplicado **exclusivamente em ambientes controlados e autorizados**.
-
 > 💡 Projeto criado para fins educacionais, laboratório prático e **portfólio profissional em Cibersegurança**.
 
 ---
