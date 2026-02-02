@@ -3,14 +3,12 @@
 Projeto criado para fins **educacionais**, laboratório prático e **portfólio profissional em Cibersegurança**.
 
 
-
 ## 🎯 Objetivos do Projeto
 - Automatizar tarefas comuns de **segurança ofensiva e defensiva**  
 - Integrar ferramentas amplamente utilizadas no **mercado de Cibersegurança**  
 - Facilitar **análises técnicas** e **coleta de evidências**  
 - Demonstrar habilidades práticas em **Cybersecurity & Python**
 
----
 
 ## ⚙️ Funcionalidades
 
@@ -26,7 +24,6 @@ Projeto criado para fins **educacionais**, laboratório prático e **portfólio 
 - Captura e inspeção de pacotes com **Scapy**  
 - Base para identificação de **comportamentos suspeitos**
 
----
 
 ## 🧰 Tecnologias Utilizadas
 - **Python 3.x**  
@@ -35,7 +32,6 @@ Projeto criado para fins **educacionais**, laboratório prático e **portfólio 
 - **Requests**  
 - **Kali Linux** (ambiente de laboratório)
 
----
 
 ## 📁 Estrutura do Projeto
 
