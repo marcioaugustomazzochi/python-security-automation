@@ -16,6 +16,9 @@ documentation/
 ├── methodology.md
 └── findings.md
 🔧 Kali Linux Tools Used
+
+---
+
 Ferramentas utilizadas na fase de enumeração automatizada:
 
 Nmap – varredura de portas, identificação de serviços e versões
