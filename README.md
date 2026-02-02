@@ -1,77 +1,111 @@
-# 🛡️ Automação de Segurança em Python
+🔐 Automação de Segurança em Python
 
-Este projeto automatiza processos de segurança usando **Python**:
+Projeto prático de automação de segurança da informação desenvolvido em Python, com foco em varredura de vulnerabilidades, coleta de inteligência de ameaças e análise de tráfego de rede, aplicado em ambientes controlados e autorizados.
 
-- **Varredura de vulnerabilities**
-- **Coleta de dados de ameaças**
-- **Análise de tráfego de rede**
+💡 Projeto criado para fins educacionais, laboratório prático e portfólio profissional em Cibersegurança.
 
----
+🎯 Objetivos do Projeto
 
-## 📌 Funcionalidades
+Automatizar tarefas comuns de segurança ofensiva e defensiva
 
-- **Varredura de Vulnerabilidades com Nmap**  
-- **Coleta de Dados de Ameaças (CVE)**  
-- **Análise de Tráfego de Rede**
+Integrar ferramentas amplamente utilizadas no mercado
 
----
+Facilitar análises técnicas e coleta de evidências
 
-## 🛠️ Tecnologias
+Demonstrar habilidades práticas em Cybersecurity & Python
 
-- **Python 3.x**
-- **Nmap**
-- **Scapy**
-- **Requests**
+⚙️ Funcionalidades
 
----
+🔎 Varredura de Vulnerabilidades
 
-## ⚙️ Instalação
+Execução automatizada de scans com Nmap
+
+Identificação de serviços e versões expostas
+
+🛡️ Coleta de Inteligência de Ameaças
+
+Consulta a APIs públicas de CVE
+
+Exibição de vulnerabilidades recentes e descrições
+
+🌐 Análise de Tráfego de Rede
+
+Captura e inspeção de pacotes com Scapy
+
+Base para identificação de comportamentos suspeitos
+
+🧰 Tecnologias Utilizadas
+
+Python 3.x
+
+Nmap
+
+Scapy
+
+Requests
+
+Kali Linux (ambiente de laboratório)
+
+📁 Estrutura do Projeto
+python-security-automation/
+├── scans/
+│   └── nmap_scan.py
+├── threat_intel/
+│   └── cve_collector.py
+├── traffic_analysis/
+│   └── scapy_sniffer.py
+├── reports/
+│   └── README.md
+├── requirements.txt
+├── LICENSE
+└── README.md
+
+🚀 Instalação
 
 Clone o repositório e instale as dependências:
 
-```bash
 git clone https://github.com/marcioaugustomazzochi/python-security-automation.git
 cd python-security-automation
 pip install -r requirements.txt
-💻 Exemplos de Uso
-🔍 Varredura de Vulnerabilidades com Nmap
-python
-import subprocess
 
-def run_nmap(target):
-    command = f"nmap -sV {target}"
-    result = subprocess.run(command, shell=True, capture_output=True, text=True)
-    print(result.stdout)
+▶️ Exemplos de Uso
+🔎 Varredura de Vulnerabilidades com Nmap
+python scans/nmap_scan.py 192.168.56.124
 
-# Exemplo de uso
-run_nmap("192.168.56.124")  # Alvo: Metasploitable
-🌐 Coleta de Dados de Ameaças (CVE)
-python
-import requests
 
-def get_cve_data():
-    url = "https://cve.circl.lu/api/last"
-    response = requests.get(url)
-    data = response.json()
-    for entry in data:
-        print(f"CVE ID: {entry['id']}, Descrição: {entry['summary']}")
+Exemplo de alvo: Metasploitable em laboratório virtualizado.
 
-# Exemplo de uso
-get_cve_data()
+🛡️ Coleta de CVEs Recentes
+python threat_intel/cve_collector.py
+
+🌐 Análise de Tráfego de Rede
+python traffic_analysis/scapy_sniffer.py
+
 🗺️ Roadmap
-Varredura de vulnerabilidades com Nmap
 
-Coleta de dados de ameaças (CVE API)
+ Varredura de vulnerabilidades com Nmap
 
-Análise de tráfego com Scapy
+ Coleta de dados de ameaças (CVE API)
 
-Geração de relatórios automáticos
+ Análise avançada de tráfego com Scapy
 
-📄 Licença
+ Geração automática de relatórios (TXT / HTML / PDF)
+
+ Integração com logs e SIEM (futuro)
+
+⚠️ Aviso Ético e Legal
+
+Este projeto deve ser utilizado exclusivamente em ambientes controlados, de teste ou com autorização explícita.
+
+🚫 Qualquer uso sem permissão é ilegal e antiético.
+
+📜 Licença
+
 Este projeto está licenciado sob a MIT License.
 Consulte o arquivo LICENSE para mais detalhes.
 
-⚠️ Aviso Ético
-Todos os scripts devem ser utilizados exclusivamente em ambientes controlados e autorizados, para fins educacionais.
+👤 Autor
 
-🚫 Qualquer uso sem permissão é ilegal e antiético.
+Márcio Augusto Mazzocchi
+🔐 Segurança da Informação | Cibersegurança | Automação com Python
+💻 GitHub: https://github.com/marcioaugustomazzochi
