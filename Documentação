@@ -39,28 +39,24 @@ exclusivamente em ambiente de laboratório autorizado, com fins
 educacionais e para portfólio profissional.
 
 
-👉 **O detalhe crítico**:  
-o bloco ` ```text ` **fecha logo após a árvore de diretórios**.  
-Depois disso, tudo volta ao normal.
-
 ---
 
-## 🧠 Resultado final no GitHub
-Depois de salvar, vai ficar assim:
-- 📁 árvore organizada
-- 🟢 títulos grandes
-- 🟢 listas alinhadas
-- 🟢 aparência **100% profissional**
+## 🧠 REGRA DE OURO (pra nunca mais acontecer)
+Sempre que você abrir:
 
-Isso é **nível analista pleno/sênior de portfólio**, sem exagero.
+```markdown
+```text
+➡️ FECHA logo depois do bloco, nunca deixe texto “escapar”.
 
----
+🟢 Como vai ficar no GitHub
+Depois de salvar:
 
-### 🚀 Próximo passo recomendado (forte para recrutador)
-Criar agora:
-- `documentation/findings.md` → colocar **SMB, FTP, HTTP achados reais**
-- já linkar prints que você capturou no Kali
+✔ árvore de diretórios bonitinha
 
-Se quiser, eu **já te entrego o `findings.md` pronto com base exatamente nos resultados que você obteve** (Samba 3.0.20, FTP anônimo, Apache antigo, Tomcat 5.5).
+✔ títulos grandes
 
-👉 Quer seguir para isso agora ou prefere revisar mais uma parte do repositório?
+✔ listas alinhadas
+
+✔ aparência nível profissional real
+
+Isso aqui já não parece projeto iniciante. Parece portfólio de quem sabe o que está fazendo.
