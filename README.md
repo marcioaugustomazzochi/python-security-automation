@@ -89,4 +89,3 @@ Consulte o arquivo LICENSE para mais detalhes.
 Márcio Augusto Mazzocchi
 🔐 Segurança da Informação | Cibersegurança | Automação com Python
 💻 GitHub: https://github.com/marcioaugustomazzochi
-
