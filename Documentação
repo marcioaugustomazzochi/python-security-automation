@@ -1,224 +1,42 @@
-🔧 Kali Linux Tools Documentation
-📌 Visão Geral
-
-Este documento descreve, de forma técnica e profissional, as ferramentas utilizadas durante a fase de enumeração automatizada do projeto
-Automação de Segurança em Python.
-
-Todo o processo foi executado em ambiente controlado, com foco educacional e de portfólio profissional.
-
-🧰 Ferramentas Utilizadas
-🔹 Nmap
-
-Varredura de portas TCP/UDP
-
-Identificação de serviços e versões
-
-Base para execução de scripts NSE
-
-🔹 Python 3
-
-Desenvolvimento de scripts de automação
-
-Integração direta com Nmap
-
-Processamento e organização dos resultados
-
-🔹 NSE Scripts (Nmap Scripting Engine)
-
-Scripts utilizados para enumeração automatizada de serviços:
-
-SMB
-
-smb-enum-shares.nse
-
-smb-enum-users.nse
-
-FTP
-
-ftp-anon.nse
-
-ftp-syst.nse
-
-HTTP
-
-http-title.nse
-
-http-headers.nse
-
-http-methods.nse
-
-http-enum.nse
-
-NFS
-
-nfs-showmount.nse
-
-nfs-ls.nse
-
-✅ Observações Técnicas
-
-Todas as ferramentas foram executadas no Kali Linux
-
-Ambiente virtualizado e isolado
-
-Enumeração focada em SMB, FTP, HTTP e NFS
-
-Resultados documentados para análise técnica e portfólio
-
-🧭 Metodologia de Enumeração
-📌 Objetivo da Metodologia
-
-Aplicar uma metodologia estruturada e profissional de enumeração, garantindo:
-
-Organização
-
-Reprodutibilidade
-
-Clareza técnica
-
-Evidências para portfólio
-
-🔍 1. Reconhecimento e Enumeração Automática
-
-A enumeração foi realizada por meio de scripts Python integrados ao Nmap, cobrindo os seguintes serviços:
-
-🔹 SMB (Server Message Block)
-
-Identificação da versão do serviço:
-
-Samba 3.0.20
-
-Enumeração de compartilhamentos:
-
-tmp com permissões READ / WRITE
-
-Enumeração de usuários via scripts NSE
-
-🔹 FTP (File Transfer Protocol)
-
-Porta analisada: 21/tcp
-
-Serviço identificado:
-
-vsftpd 2.3.4
-
-Verificação de:
-
-Login anônimo permitido
-
-Banners e diretórios acessíveis
-
-🔹 HTTP (Web Services)
-
-Portas analisadas:
-
-80/tcp
-
-8180/tcp
-
-Serviços identificados:
-
-Apache 2.2.8
-
-Apache Tomcat 5.5
-
-Enumeração de:
-
-Diretórios sensíveis
-
-Headers HTTP
-
-Métodos HTTP suportados
-
-🔹 NFS (Network File System)
-
-Porta analisada: 2049/tcp
-
-Enumeração de:
-
-Compartilhamentos acessíveis
-
-Permissões de montagem
-
-🛠️ 2. Ferramentas e Scripts
-
-Scripts Python personalizados:
-
-scans/*.py
-
-Integração com:
-
-Nmap
-
-NSE Scripts
-
-Resultados:
-
-Coletados
-
-Organizados
-
-Documentados para portfólio
-
-📝 Principais Descobertas
-🔹 SMB
-
-Serviço: Samba 3.0.20
-
-Compartilhamento identificado:
-
-tmp com READ / WRITE
-
-Enumeração de usuários realizada com sucesso
-
-🔹 FTP
-
-Porta: 21/tcp
-
-Serviço: vsftpd 2.3.4
-
-Login anônimo: HABILITADO
-
-Diretórios e banners identificados
-
-🔹 HTTP
-
-Porta 80/tcp
-
-Apache 2.2.8
-
-Porta 8180/tcp
-
-Apache Tomcat 5.5
-
-Diretórios e arquivos relevantes:
-
-/phpinfo.php
-
-/phpMyAdmin/
-
-/tikiwiki/
-
-/test/
-
-/doc/
-
-/icons/
-
-Métodos HTTP suportados:
-
-GET
-
-HEAD
-
-POST
-
-OPTIONS
-
-🔹 NFS
-
-Porta: 2049/tcp
-
-Compartilhamentos acessíveis identificados
-
-Possibilidade de montagem confirmada
+### 💡 Projeto: Automação de Segurança em Python
+
+Projeto criado para fins **educacionais**, laboratório prático e **portfólio profissional em Cibersegurança**.
+
+---
+
+### 🎯 Objetivos do Projeto
+- Automatizar tarefas comuns de **segurança ofensiva e defensiva**  
+- Integrar ferramentas amplamente utilizadas no **mercado de Cibersegurança**  
+- Facilitar **análises técnicas** e **coleta de evidências**  
+- Demonstrar habilidades práticas em **Cybersecurity & Python**
+
+---
+
+### 📁 Estrutura do Projeto
+```text
+python-security-automation/
+├── scans/
+│   └── nmap_scan.py
+├── threat_intel/
+│   └── cve_collector.py
+├── traffic_analysis/
+│   └── scapy_sniffer.py
+├── reports/
+│   └── README.md
+├── requirements.txt
+├── LICENSE
+└── README.md
+🚀 Instalação
+bash
+git clone https://github.com/marcioaugustomazzochi/python-security-automation.git
+cd python-security-automation
+pip install -r requirements.txt
+Código
+
+---
+
+👉 Se você salvar exatamente assim, o GitHub vai renderizar os títulos grandes, os negritos destacados e os blocos de código bonitos.  
+
+Se ainda aparecer “sem qualidade”, é porque você está abrindo o arquivo em modo **Raw** ou ele não está salvo como `.md`.  
+
+Quer que eu te mostre uma captura de como esse mesmo arquivo aparece renderizado no GitHub para você comparar com o que está vendo?
