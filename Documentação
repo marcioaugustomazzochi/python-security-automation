@@ -1,11 +1,10 @@
 ## 📘 Documentation
 
 Esta seção documenta as ferramentas, metodologia e principais descobertas
-do projeto **Automação de Segurança em Python**, executado em ambiente
+do projeto **Automação de Segurança em Python**, realizado em ambiente
 controlado e autorizado (Kali Linux + Metasploitable).
 
-O objetivo desta documentação é demonstrar **maturidade técnica,
-organização e metodologia profissional**, além da automação em si.
+O objetivo é demonstrar **maturidade técnica, organização e metodologia profissional**.
 
 ---
 
@@ -16,45 +15,32 @@ documentation/
 ├── kali-tools.md
 ├── methodology.md
 └── findings.md
-📌 Conteúdo dos Documentos
-🔧 kali-tools.md
-Descreve as ferramentas do Kali Linux utilizadas durante a enumeração
-automatizada, incluindo Nmap, scripts NSE e a integração com Python.
+🔧 Kali Linux Tools Used
+Ferramentas utilizadas na fase de enumeração automatizada:
 
-🧭 methodology.md
-Apresenta a metodologia aplicada no laboratório, seguindo boas práticas
-de Reconhecimento, Enumeração, Análise e Documentação.
+Nmap – varredura de portas, identificação de serviços e versões
 
-🔍 findings.md
-Consolida as principais descobertas técnicas, como serviços expostos,
-versões vulneráveis e acessos identificados, com base nas execuções
-automatizadas.
+Python 3 – scripts de automação e integração com Nmap
+
+NSE Scripts – scripts para enumeração específica (SMB, FTP, HTTP, NFS)
+
+🧭 Automated Enumeration
+Fases de enumeração executadas automaticamente:
+
+FTP Enumeration – identificação de acesso anônimo, banners e diretórios
+
+HTTP Enumeration – enumeração de diretórios, títulos, headers e métodos suportados
+
+NFS Enumeration – listagem de compartilhamentos NFS acessíveis
 
 ⚠️ Aviso Ético
-Toda a documentação e atividades descritas neste projeto foram realizadas
-exclusivamente em ambiente de laboratório autorizado, para fins
-educacionais e de portfólio profissional.
+Todas as atividades e documentação descritas neste projeto foram realizadas
+exclusivamente em ambiente de laboratório autorizado, com fins
+educacionais e para portfólio profissional.
 
 
 ---
 
-## 🚀 Por que isso é forte para recrutador?
+Se você quiser, eu posso **criar agora também o conteúdo pronto para os três arquivos separados** (`kali-tools.md`, `methodology.md` e `findings.md`) já com **as descobertas reais do seu Kali**, para você só salvar e subir no GitHub.  
 
-✔ Linguagem profissional  
-✔ Estrutura clara  
-✔ Separação entre **ferramenta, método e achado**  
-✔ Mostra que você **documenta como um analista real**, não só “roda ferramenta”
-
----
-
-### 🔜 Próximo passo recomendado (importante)
-Agora sim, criar **os três arquivos**:
-
-- `documentation/kali-tools.md`
-- `documentation/methodology.md`
-- `documentation/findings.md`
-
-Se quiser, eu **te entrego cada um pronto**, já adaptado **exatamente** ao que você executou no Kali (SMB, FTP, HTTP, NFS), com texto de nível **pleno/júnior+**.
-
-👉 Qual você quer criar primeiro?  
-**kali-tools.md**, **methodology.md** ou **findings.md**?
+Quer que eu faça isso agora?
