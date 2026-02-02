@@ -39,24 +39,30 @@ exclusivamente em ambiente de laboratório autorizado, com fins
 educacionais e para portfólio profissional.
 
 
+⚠️ **IMPORTANTE**
+- O ` ``` ` que fecha o bloco **tem que estar sozinho na linha**
+- Não pode ter texto antes nem depois
+
 ---
 
-## 🧠 REGRA DE OURO (pra nunca mais acontecer)
-Sempre que você abrir:
+## 🧠 POR QUE ANTES SEMPRE QUEBRAVA
+Você estava com isso (mesmo sem perceber):
 
-```markdown
-```text
-➡️ FECHA logo depois do bloco, nunca deixe texto “escapar”.
+└── findings.md
+🔧 Kali Linux Tools Used
 
-🟢 Como vai ficar no GitHub
-Depois de salvar:
 
-✔ árvore de diretórios bonitinha
+➡️ faltava **uma linha só com**:
 
-✔ títulos grandes
+Sem isso, o Markdown nunca fecha o bloco.
 
-✔ listas alinhadas
+🟢 Como vai aparecer depois de salvar
+A árvore documentation/ fica isolada ✔
 
-✔ aparência nível profissional real
+“Kali Linux Tools Used” vira título ✔
 
-Isso aqui já não parece projeto iniciante. Parece portfólio de quem sabe o que está fazendo.
+Emojis funcionam ✔
+
+Layout profissional ✔
+
+Isso é exatamente o padrão que recrutador técnico reconhece.
