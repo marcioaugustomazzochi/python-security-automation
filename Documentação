@@ -1,4 +1,4 @@
-## 📘 Documentation
+# 📘 Documentation
 
 Esta seção documenta as **ferramentas**, **metodologia** e **principais descobertas**
 do projeto **Automação de Segurança em Python**, realizado em ambiente
@@ -15,11 +15,7 @@ documentation/
 ├── kali-tools.md
 ├── methodology.md
 └── findings.md
-
----  
-
 🔧 Kali Linux Tools Used
-
 Ferramentas utilizadas na fase de enumeração automatizada:
 
 Nmap – varredura de portas, identificação de serviços e versões
@@ -42,3 +38,10 @@ Todas as atividades e documentação descritas neste projeto foram realizadas
 exclusivamente em ambiente de laboratório autorizado, com fins
 educacionais e para portfólio profissional.
 
+🚫 Qualquer uso sem permissão é ilegal e antiético.
+
+Código
+
+Esse conteúdo, quando colado no GitHub, vai renderizar com títulos grandes, negrito destacado, listas bem organizadas e blocos de código para a estrutura de pastas.  
+
+Quer que eu prepare também um **modelo de documentação para cada arquivo** (`kali-tools.md`, `methodology.md`, `findings.md`) com seções internas já estruturadas?
