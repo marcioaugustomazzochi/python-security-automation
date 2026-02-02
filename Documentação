@@ -1,42 +1,67 @@
-### 💡 Projeto: Automação de Segurança em Python ###
+# Projeto: Automação de Segurança em Python
 
 Projeto criado para fins **educacionais**, laboratório prático e **portfólio profissional em Cibersegurança**.
 
 ---
 
-### 🎯 Objetivos do Projeto
-- Automatizar tarefas comuns de **segurança ofensiva e defensiva**  
-- Integrar ferramentas amplamente utilizadas no **mercado de Cibersegurança**  
-- Facilitar **análises técnicas** e **coleta de evidências**  
+## Objetivos do Projeto
+
+- Automatizar tarefas comuns de **segurança ofensiva e defensiva**
+- Integrar ferramentas amplamente utilizadas no **mercado de Cibersegurança**
+- Facilitar **análises técnicas** e **coleta de evidências**
 - Demonstrar habilidades práticas em **Cybersecurity & Python**
 
 ---
 
-### 📁 Estrutura do Projeto
-```text
-python-security-automation/
-├── scans/
-│   └── nmap_scan.py
-├── threat_intel/
-│   └── cve_collector.py
-├── traffic_analysis/
-│   └── scapy_sniffer.py
-├── reports/
-│   └── README.md
-├── requirements.txt
-├── LICENSE
-└── README.md
-🚀 Instalação
-bash
-git clone https://github.com/marcioaugustomazzochi/python-security-automation.git
-cd python-security-automation
-pip install -r requirements.txt
-Código
+## Funcionalidades
+
+### Varredura de Vulnerabilidades
+
+- Execução automatizada de scans com **Nmap**
+- Identificação de **serviços e versões expostas**
+
+### Coleta de Inteligência de Ameaças
+
+- Consulta a **APIs públicas de CVE**
+- Exibição de vulnerabilidades recentes e descrições técnicas
+
+### Análise de Tráfego de Rede
+
+- Captura e inspeção de pacotes com **Scapy**
+- Identificação de **comportamentos suspeitos**
 
 ---
 
-👉 Se você salvar exatamente assim, o GitHub vai renderizar os títulos grandes, os negritos destacados e os blocos de código bonitos.  
+## Tecnologias Utilizadas
 
-Se ainda aparecer “sem qualidade”, é porque você está abrindo o arquivo em modo **Raw** ou ele não está salvo como `.md`.  
+- **Python 3.x**
+- **Nmap**
+- **Scapy**
+- **Requests**
+- **Kali Linux** (ambiente de laboratório)
 
-Quer que eu te mostre uma captura de como esse mesmo arquivo aparece renderizado no GitHub para você comparar com o que está vendo?
+---
+
+## Estrutura do Projeto
+
+python-security-automation/
+├── scans/
+│ └── nmap_scan.py
+├── threat_intel/
+│ └── cve_collector.py
+├── traffic_analysis/
+│ └── scapy_sniffer.py
+├── reports/
+│ └── README.md
+├── requirements.txt
+├── LICENSE
+└── README.md
+
+
+---
+
+## Instalação
+
+git clone https://github.com/marcioaugustomazzochi/python-security-automation.git
+cd python-security-automation
+pip install -r requirements.txt
