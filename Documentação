@@ -1,44 +1,43 @@
-💡 Projeto: Automação de Segurança em Python
-Projeto criado para fins educacionais, laboratório prático e portfólio profissional em Cibersegurança.
+# 💡 Projeto: Automação de Segurança em Python
 
-🎯 Objetivos do Projeto
-Automatizar tarefas comuns de segurança ofensiva e defensiva
+Projeto criado para fins **educacionais**, laboratório prático e **portfólio profissional em Cibersegurança**.
 
-Integrar ferramentas amplamente utilizadas no mercado de Cibersegurança
+---
 
-Facilitar análises técnicas e coleta de evidências
+## 🎯 Objetivos do Projeto
+- Automatizar tarefas comuns de **segurança ofensiva e defensiva**  
+- Integrar ferramentas amplamente utilizadas no **mercado de Cibersegurança**  
+- Facilitar **análises técnicas** e **coleta de evidências**  
+- Demonstrar habilidades práticas em **Cybersecurity & Python**
 
-Demonstrar habilidades práticas em Cybersecurity & Python
+---
 
-⚙️ Funcionalidades
-🔎 Varredura de Vulnerabilidades
-Execução automatizada de scans com Nmap
+## ⚙️ Funcionalidades
+### 🔎 **Varredura de Vulnerabilidades**
+- Execução automatizada de scans com **Nmap**  
+- Identificação de **serviços e versões expostas**
 
-Identificação de serviços e versões expostas
+### 🛡️ **Coleta de Inteligência de Ameaças**
+- Consulta a **APIs públicas de CVE**  
+- Exibição de vulnerabilidades recentes e descrições técnicas  
 
-🛡️ Coleta de Inteligência de Ameaças
-Consulta a APIs públicas de CVE
+### 🌐 **Análise de Tráfego de Rede**
+- Captura e inspeção de pacotes com **Scapy**  
+- Base para identificação de **comportamentos suspeitos**
 
-Exibição de vulnerabilidades recentes e descrições técnicas
+---
 
-🌐 Análise de Tráfego de Rede
-Captura e inspeção de pacotes com Scapy
+## 🧰 Tecnologias Utilizadas
+- **Python 3.x**  
+- **Nmap**  
+- **Scapy**  
+- **Requests**  
+- **Kali Linux** (ambiente de laboratório)
 
-Base para identificação de comportamentos suspeitos
+---
 
-🧰 Tecnologias Utilizadas
-Python 3.x
-
-Nmap
-
-Scapy
-
-Requests
-
-Kali Linux (ambiente de laboratório)
-
-📁 Estrutura do Projeto
-Código
+## 📁 Estrutura do Projeto
+```text
 python-security-automation/
 ├── scans/
 │   └── nmap_scan.py
@@ -52,21 +51,21 @@ python-security-automation/
 ├── LICENSE
 └── README.md
 🚀 Instalação
-Código
+bash
 git clone https://github.com/marcioaugustomazzochi/python-security-automation.git
 cd python-security-automation
 pip install -r requirements.txt
 ▶️ Exemplos de Uso
 🔎 Varredura de Vulnerabilidades com Nmap
-Código
+bash
 python scans/nmap_scan.py 192.168.56.124
 Exemplo de alvo: Metasploitable em laboratório virtualizado.
 
 🛡️ Coleta de CVEs Recentes
-Código
+bash
 python threat_intel/cve_collector.py
 🌐 Análise de Tráfego de Rede
-Código
+bash
 python traffic_analysis/scapy_sniffer.py
 🗺️ Roadmap
 [x] Varredura de vulnerabilidades com Nmap
@@ -82,7 +81,7 @@ python traffic_analysis/scapy_sniffer.py
 📘 Documentation
 Esta seção documenta as ferramentas, metodologia e principais descobertas do projeto, realizado em ambiente controlado (Kali Linux + Metasploitable).
 
-Código
+text
 documentation/
 ├── kali-tools.md
 ├── methodology.md
@@ -114,3 +113,13 @@ Consulte o arquivo LICENSE para mais detalhes.
 Márcio Augusto Mazzocchi  
 🔐 Segurança da Informação | Cibersegurança | Automação com Python
 💻 GitHub: marcioaugustomazzochi
+
+Código
+
+---
+
+👉 Se você colar exatamente esse conteúdo em `README.md`, o GitHub vai renderizar os títulos grandes, os negritos destacados e os blocos de código bonitos.  
+
+O segredo é: **não usar a palavra “Código”** — apenas as três crases ``` para abrir/fechar blocos.  
+
+Quer que eu te mostre como fica renderizado no GitHub (visual final) para você compara
