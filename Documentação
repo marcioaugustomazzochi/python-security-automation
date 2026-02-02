@@ -1,44 +1,43 @@
-💡 Projeto: Automação de Segurança em Python
-Projeto criado para fins educacionais, laboratório prático e portfólio profissional em Cibersegurança.
+### 💡 Projeto: Automação de Segurança em Python
 
-🎯 Objetivos do Projeto
-Automatizar tarefas comuns de segurança ofensiva e defensiva
+Projeto criado para fins **educacionais**, laboratório prático e **portfólio profissional em Cibersegurança**.
 
-Integrar ferramentas amplamente utilizadas no mercado de Cibersegurança
+---
 
-Facilitar análises técnicas e coleta de evidências
+### 🎯 Objetivos do Projeto
+- Automatizar tarefas comuns de **segurança ofensiva e defensiva**  
+- Integrar ferramentas amplamente utilizadas no **mercado de Cibersegurança**  
+- Facilitar **análises técnicas** e **coleta de evidências**  
+- Demonstrar habilidades práticas em **Cybersecurity & Python**
 
-Demonstrar habilidades práticas em Cybersecurity & Python
+---
 
-⚙️ Funcionalidades
-🔎 Varredura de Vulnerabilidades
-Execução automatizada de scans com Nmap
+### ⚙️ Funcionalidades
+#### 🔎 **Varredura de Vulnerabilidades**
+- Execução automatizada de scans com **Nmap**  
+- Identificação de **serviços e versões expostas**
 
-Identificação de serviços e versões expostas
+#### 🛡️ **Coleta de Inteligência de Ameaças**
+- Consulta a **APIs públicas de CVE**  
+- Exibição de vulnerabilidades recentes e descrições técnicas  
 
-🛡️ Coleta de Inteligência de Ameaças
-Consulta a APIs públicas de CVE
+#### 🌐 **Análise de Tráfego de Rede**
+- Captura e inspeção de pacotes com **Scapy**  
+- Base para identificação de **comportamentos suspeitos**
 
-Exibição de vulnerabilidades recentes e descrições técnicas
+---
 
-🌐 Análise de Tráfego de Rede
-Captura e inspeção de pacotes com Scapy
+### 🧰 Tecnologias Utilizadas
+- **Python 3.x**  
+- **Nmap**  
+- **Scapy**  
+- **Requests**  
+- **Kali Linux** (ambiente de laboratório)
 
-Base para identificação de comportamentos suspeitos
+---
 
-🧰 Tecnologias Utilizadas
-Python 3.x
-
-Nmap
-
-Scapy
-
-Requests
-
-Kali Linux (ambiente de laboratório)
-
-📁 Estrutura do Projeto
-text
+### 📁 Estrutura do Projeto
+```text
 python-security-automation/
 ├── scans/
 │   └── nmap_scan.py
@@ -56,18 +55,6 @@ bash
 git clone https://github.com/marcioaugustomazzochi/python-security-automation.git
 cd python-security-automation
 pip install -r requirements.txt
-👉 Nesta versão, os títulos aparecem grandes e os negritos destacados.
-
-2️⃣ Versão em bloco de código cru (sem renderização)
 Código
-### 💡 Projeto: Automação de Segurança em Python
 
-Projeto criado para fins **educacionais**, laboratório prático e **portfólio profissional em Cibersegurança**.
-
----
-
-### 🎯 Objetivos do Projeto
-- Automatizar tarefas comuns de **segurança ofensiva e defensiva**  
-- Integrar ferramentas amplamente utilizadas no **mercado de Cibersegurança**  
-- Facilitar **análises técnicas** e **coleta de evidências**  
-- Demonstrar habilidades práticas em **Cybersecurity & Python**
+--
