@@ -13,32 +13,6 @@ Projeto criado para fins **educacionais**, laboratório prático e **portfólio 
 
 ---
 
-## ⚙️ Funcionalidades
-
-### 🔎 **Varredura de Vulnerabilidades**
-- Execução automatizada de scans com **Nmap**  
-- Identificação de **serviços e versões expostas**
-
-### 🛡️ **Coleta de Inteligência de Ameaças**
-- Consulta a **APIs públicas de CVE**  
-- Exibição de vulnerabilidades recentes e descrições técnicas  
-
-### 🌐 **Análise de Tráfego de Rede**
-- Captura e inspeção de pacotes com **Scapy**  
-- Base para identificação de **comportamentos suspeitos**
-
----
-
-## 🧰 Tecnologias Utilizadas
-
-- **Python 3.x**  
-- **Nmap**  
-- **Scapy**  
-- **Requests**  
-- **Kali Linux** (ambiente de laboratório)  
-
----
-
 ## 📁 Estrutura do Projeto
 
 ```text
@@ -71,17 +45,6 @@ python threat_intel/cve_collector.py
 🌐 Análise de Tráfego de Rede
 bash
 python traffic_analysis/scapy_sniffer.py
-🗺️ Roadmap
-[x] Varredura de vulnerabilidades com Nmap
-
-[x] Coleta de dados de ameaças (CVE API)
-
-[x] Análise avançada de tráfego com Scapy
-
-[ ] Geração automática de relatórios (TXT / HTML / PDF)
-
-[ ] Integração com logs e SIEM (futuro)
-
 📘 Documentation
 Esta seção documenta as ferramentas, metodologia e principais descobertas do projeto, realizado em ambiente controlado (Kali Linux + Metasploitable).
 
@@ -119,7 +82,3 @@ Márcio Augusto Mazzocchi
 💻 GitHub: marcioaugustomazzochi
 
 Código
-
-Esse `README.md` já está pronto para colar no GitHub e vai renderizar com títulos destacados, negrito, listas e blocos de código corretamente.  
-
-Quer que eu também monte os arquivos internos da documentação (`kali-tools.md`, `methodology.md`, `findings.md`) com seções já estruturadas para você só preencher?
