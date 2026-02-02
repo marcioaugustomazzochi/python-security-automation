@@ -5,6 +5,7 @@ Projeto criado para fins **educacionais**, laboratório prático e **portfólio 
 ---
 
 ## 🎯 Objetivos do Projeto
+
 - Automatizar tarefas comuns de **segurança ofensiva e defensiva**  
 - Integrar ferramentas amplamente utilizadas no **mercado de Cibersegurança**  
 - Facilitar **análises técnicas** e **coleta de evidências**  
@@ -15,20 +16,24 @@ Projeto criado para fins **educacionais**, laboratório prático e **portfólio 
 ## ⚙️ Funcionalidades
 
 ### 🔎 Varredura de Vulnerabilidades
+
 - Execução automatizada de scans com **Nmap**  
 - Identificação de **serviços e versões expostas**
 
 ### 🛡️ Coleta de Inteligência de Ameaças
+
 - Consulta a **APIs públicas de CVE**  
 - Exibição de vulnerabilidades recentes e descrições técnicas  
 
 ### 🌐 Análise de Tráfego de Rede
+
 - Captura e inspeção de pacotes com **Scapy**  
 - Base para identificação de **comportamentos suspeitos**
 
 ---
 
 ## 🧰 Tecnologias Utilizadas
+
 - **Python 3.x**  
 - **Nmap**  
 - **Scapy**  
