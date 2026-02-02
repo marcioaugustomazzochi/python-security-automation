@@ -1,0 +1,34 @@
+## 📘 Documentation
+
+### Kali Linux Tools Used
+- Nmap
+- Python 3
+- NSE Scripts
+
+### Automated Enumeration
+- FTP Enumeration
+- HTTP Enumeration
+- NFS Enumeration
+Opção 2 — Pasta dedicada (nível mais avançado)
+Crie uma pasta:
+
+documentation/
+├── kali-tools.md
+├── methodology.md
+└── findings.md
+E dentro do kali-tools.md:
+
+# Kali Linux Tools Documentation
+
+This document describes the Kali Linux tools used during
+the automated enumeration phase of this project.
+❌ Evite
+“Kali Tools” sozinho como menu principal
+
+“Tools” sem explicação
+
+Nome muito genérico ou informal
+
+🧠 Regra de ouro de portfólio
+Ferramentas são detalhes.
+Documentação mostra maturidade profissional.
