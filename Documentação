@@ -1,8 +1,8 @@
 ## 📘 Documentation
 
-Esta seção documenta as ferramentas, metodologia e principais descobertas
+Esta seção documenta as **ferramentas**, **metodologia** e **principais descobertas**
 do projeto **Automação de Segurança em Python**, realizado em ambiente
-controlado e autorizado (Kali Linux + Metasploitable).
+controlado e autorizado (**Kali Linux + Metasploitable**).
 
 O objetivo é demonstrar **maturidade técnica, organização e metodologia profissional**.
 
@@ -38,31 +38,3 @@ Todas as atividades e documentação descritas neste projeto foram realizadas
 exclusivamente em ambiente de laboratório autorizado, com fins
 educacionais e para portfólio profissional.
 
-
-⚠️ **IMPORTANTE**
-- O ` ``` ` que fecha o bloco **tem que estar sozinho na linha**
-- Não pode ter texto antes nem depois
-
----
-
-## 🧠 POR QUE ANTES SEMPRE QUEBRAVA
-Você estava com isso (mesmo sem perceber):
-
-└── findings.md
-🔧 Kali Linux Tools Used
-
-
-➡️ faltava **uma linha só com**:
-
-Sem isso, o Markdown nunca fecha o bloco.
-
-🟢 Como vai aparecer depois de salvar
-A árvore documentation/ fica isolada ✔
-
-“Kali Linux Tools Used” vira título ✔
-
-Emojis funcionam ✔
-
-Layout profissional ✔
-
-Isso é exatamente o padrão que recrutador técnico reconhece.
