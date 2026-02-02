@@ -1,35 +1,48 @@
-💡 Projeto: Automação de Segurança em Python 
+<!-- Badges -->
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+
+# 💡 Projeto: Automação de Segurança em Python
 
 Projeto criado para fins **educacionais**, laboratório prático e **portfólio profissional em Cibersegurança**.
 
-🎯 Objetivos do Projeto
+---
+
+## 🎯 Objetivos do Projeto
 - Automatizar tarefas comuns de **segurança ofensiva e defensiva**  
 - Integrar ferramentas amplamente utilizadas no **mercado de Cibersegurança**  
 - Facilitar **análises técnicas** e **coleta de evidências**  
 - Demonstrar habilidades práticas em **Cybersecurity & Python**
 
-⚙️ Funcionalidades
+---
 
-🔎 Varredura de Vulnerabilidades
+## ⚙️ Funcionalidades
+
+### 🔎 Varredura de Vulnerabilidades
 - Execução automatizada de scans com **Nmap**  
 - Identificação de **serviços e versões expostas**
 
-🛡️ Coleta de Inteligência de Ameaças
+### 🛡️ Coleta de Inteligência de Ameaças
 - Consulta a **APIs públicas de CVE**  
 - Exibição de vulnerabilidades recentes e descrições técnicas  
 
-🌐 Análise de Tráfego de Rede
+### 🌐 Análise de Tráfego de Rede
 - Captura e inspeção de pacotes com **Scapy**  
 - Base para identificação de **comportamentos suspeitos**
 
-🧰 Tecnologias Utilizadas
+---
+
+## 🧰 Tecnologias Utilizadas
 - **Python 3.x**  
 - **Nmap**  
 - **Scapy**  
 - **Requests**  
 - **Kali Linux** (ambiente de laboratório)
 
-📁 Estrutura do Projeto
+---
+
+## 📁 Estrutura do Projeto
 
 ```text
 python-security-automation/
@@ -44,7 +57,6 @@ python-security-automation/
 ├── requirements.txt
 ├── LICENSE
 └── README.md
-
 🚀 Instalação
 git clone https://github.com/marcioaugustomazzochi/python-security-automation.git
 cd python-security-automation
@@ -69,14 +81,11 @@ python traffic_analysis/scapy_sniffer.py
 
  Integração com logs e SIEM (futuro)
 
-📘 Documentation
-Esta seção documenta as ferramentas, metodologia e principais descobertas do projeto, realizado em ambiente controlado (Kali Linux + Metasploitable).
-
+📘 Documentação
 documentation/
 ├── kali-tools.md
 ├── methodology.md
 └── findings.md
-
 🔧 Kali Linux Tools Used
 Nmap – varredura de portas, identificação de serviços e versões
 
@@ -102,5 +111,4 @@ Este projeto está licenciado sob a MIT License. Consulte o arquivo LICENSE para
 👤 Autor
 Márcio Augusto Mazzocchi
 🔐 Segurança da Informação | Cibersegurança | Automação com Python
-
-
+💻 GitHub: marcioaugustomazzochi
