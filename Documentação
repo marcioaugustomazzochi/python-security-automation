@@ -39,20 +39,25 @@ Projeto criado para fins **educacionais**, laboratório prático e **portfólio 
 
 ## 📁 Estrutura do Projeto
 
-```text
 python-security-automation/
 ├── scans/
-│   └── nmap_scan.py
+│ └── nmap_scan.py
 ├── threat_intel/
-│   └── cve_collector.py
+│ └── cve_collector.py
 ├── traffic_analysis/
-│   └── scapy_sniffer.py
+│ └── scapy_sniffer.py
 ├── reports/
-│   └── README.md
+│ └── README.md
 ├── requirements.txt
 ├── LICENSE
 └── README.md
-🚀 Instalação
+
+
+---
+
+## 🚀 Instalação
+
+```bash
 git clone https://github.com/marcioaugustomazzochi/python-security-automation.git
 cd python-security-automation
 pip install -r requirements.txt
@@ -110,4 +115,3 @@ Consulte o arquivo LICENSE para mais detalhes.
 Márcio Augusto Mazzocchi
 🔐 Segurança da Informação | Cibersegurança | Automação com Python
 💻 GitHub: marcioaugustomazzochi
-
