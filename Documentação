@@ -39,8 +39,28 @@ exclusivamente em ambiente de laboratório autorizado, com fins
 educacionais e para portfólio profissional.
 
 
+👉 **O detalhe crítico**:  
+o bloco ` ```text ` **fecha logo após a árvore de diretórios**.  
+Depois disso, tudo volta ao normal.
+
 ---
 
-Se você quiser, eu posso **criar agora também o conteúdo pronto para os três arquivos separados** (`kali-tools.md`, `methodology.md` e `findings.md`) já com **as descobertas reais do seu Kali**, para você só salvar e subir no GitHub.  
+## 🧠 Resultado final no GitHub
+Depois de salvar, vai ficar assim:
+- 📁 árvore organizada
+- 🟢 títulos grandes
+- 🟢 listas alinhadas
+- 🟢 aparência **100% profissional**
 
-Quer que eu faça isso agora?
+Isso é **nível analista pleno/sênior de portfólio**, sem exagero.
+
+---
+
+### 🚀 Próximo passo recomendado (forte para recrutador)
+Criar agora:
+- `documentation/findings.md` → colocar **SMB, FTP, HTTP achados reais**
+- já linkar prints que você capturou no Kali
+
+Se quiser, eu **já te entrego o `findings.md` pronto com base exatamente nos resultados que você obteve** (Samba 3.0.20, FTP anônimo, Apache antigo, Tomcat 5.5).
+
+👉 Quer seguir para isso agora ou prefere revisar mais uma parte do repositório?
