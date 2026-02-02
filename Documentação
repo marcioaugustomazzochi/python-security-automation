@@ -13,6 +13,32 @@ Projeto criado para fins **educacionais**, laboratório prático e **portfólio 
 
 ---
 
+## ⚙️ Funcionalidades
+
+### 🔎 **Varredura de Vulnerabilidades**
+- Execução automatizada de scans com **Nmap**  
+- Identificação de **serviços e versões expostas**
+
+### 🛡️ **Coleta de Inteligência de Ameaças**
+- Consulta a **APIs públicas de CVE**  
+- Exibição de vulnerabilidades recentes e descrições técnicas  
+
+### 🌐 **Análise de Tráfego de Rede**
+- Captura e inspeção de pacotes com **Scapy**  
+- Base para identificação de **comportamentos suspeitos**
+
+---
+
+## 🧰 Tecnologias Utilizadas
+
+- **Python 3.x**  
+- **Nmap**  
+- **Scapy**  
+- **Requests**  
+- **Kali Linux** (ambiente de laboratório)  
+
+---
+
 ## 📁 Estrutura do Projeto
 
 ```text
@@ -96,6 +122,6 @@ Código
 
 ---
 
-👉 Se você colar esse conteúdo no GitHub, os títulos vão aparecer grandes e destacados, os negritos funcionarão e os blocos de código ficarão separados corretamente.  
+👉 Se você colar exatamente esse conteúdo no GitHub, os títulos vão aparecer destacados (`#`, `##`, `###`) e os negritos (`**texto**`) funcionarão corretamente.  
 
-Quer que eu monte também os arquivos internos (`kali-tools.md`, `methodology.md`, `findings.
+Quer que eu prepare também os arquivos internos (`kali-tools.md`, `methodology.md`, `findings.md`) já com seções prontas para você preencher?
