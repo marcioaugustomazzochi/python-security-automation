@@ -1,1 +1,35 @@
+# 📸 Evidências Práticas (Impressões)
 
+Esta pasta contém **prints reais de execução** dos scripts do projeto *Automação de Segurança em Python*, demonstrando o funcionamento prático das principais funcionalidades.
+
+As imagens foram capturadas durante testes realizados em ambiente de laboratório controlado (por exemplo, Kali Linux com Metasploitable) e são essenciais para evidenciar que:
+
+- os scripts foram executados com sucesso;
+- as saídas produzem resultados concretos;
+- as ferramentas integradas (Nmap, coleta de CVE, análise de tráfego) estão funcionando conforme esperado.
+
+## 📁 Conteúdo da Pasta
+
+Cada arquivo representa um passo de execução:
+
+- **01-nmap-scan.png** – resultado de um scan automatizado com Nmap  
+- **02-cve-fetch.png** – saída retornada pela coleta de vulnerabilidades (CVEs)  
+- **03-traffic-capture.png** – captura de pacotes de rede com Scapy  
+
+---
+
+## 🧠 Por Que Isso É Importante
+
+Incluir imagens/documentação visual é uma boa prática de README porque:
+
+- torna o projeto mais compreensível e acessível;
+- ajuda recrutadores e colegas a verem *a aplicação real* do código;
+- evidencia que o projeto não é só código, mas está validado por execução prática. :contentReference[oaicite:1]{index=1}
+
+---
+
+## ⚠️ Contexto Ético
+
+Todos os testes apresentados nas imagens foram executados **em ambientes autorizados e controlados**, com finalidade **educacional, de laboratório e de portfólio profissional**.
+
+O uso desses scripts **fora desse contexto autorizado é ilegal e antiético** e não é coberto por este projeto.
