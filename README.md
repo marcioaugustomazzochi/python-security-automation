@@ -58,6 +58,7 @@ python-security-automation/
 ├── requirements.txt
 ├── LICENSE
 └── README.md
+
 📸 Evidências Práticas de Execução
 Para comprovar a execução real dos scripts e a automação funcionando na prática, este projeto conta com evidências visuais obtidas em laboratório controlado.
 
