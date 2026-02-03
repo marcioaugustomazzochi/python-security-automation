@@ -4,9 +4,9 @@
 ![Cybersecurity](https://img.shields.io/badge/Cybersecurity-Automation-red)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-Projeto prático de **automação de processos de Segurança da Informação**, desenvolvido em **Python**, com foco em **varredura de vulnerabilidades**, **coleta de inteligência de ameaças** e **análise de tráfego de rede**.
+Projeto focado na **automação de processos de Segurança da Informação** utilizando **Python**, com abordagem prática e orientada a **portfólio profissional em Cibersegurança**.
 
-Aplicado exclusivamente em **ambientes controlados e autorizados**, com objetivo educacional e de **portfólio profissional em Cibersegurança**.
+O objetivo é demonstrar **conhecimento técnico aplicado**, boas práticas de segurança e automação em **ambientes controlados e autorizados**.
 
 ---
 
@@ -14,8 +14,8 @@ Aplicado exclusivamente em **ambientes controlados e autorizados**, com objetivo
 
 - Automatizar tarefas comuns de segurança ofensiva e defensiva  
 - Facilitar análises técnicas e apoio à resposta a incidentes  
-- Demonstrar habilidades práticas em Python aplicado à Segurança  
-- Aplicar boas práticas de Cibersegurança, GRC e conformidade  
+- Demonstrar habilidades práticas para portfólio profissional  
+- Aplicar conceitos de Cibersegurança, GRC e boas práticas de conformidade  
 
 ---
 
@@ -25,32 +25,32 @@ Aplicado exclusivamente em **ambientes controlados e autorizados**, com objetivo
 Automatização de scans para identificação de hosts, serviços, portas e versões expostas.
 
 📂 Script:
-- `scripts/nmap_scan.py`
+- [`scripts/nmap_scan.py`](scripts/nmap_scan.py)
 
 📸 Evidência:
-- `prints/nmap_scan.png`
+- ![Nmap Scan](prints/nmap_scan.png)
 
 ---
 
 ### 🌐 Coleta de Dados de Ameaças (CVE)
-Coleta automatizada de dados públicos de vulnerabilidades (CVEs), auxiliando análises técnicas e de risco.
+Coleta automatizada de dados públicos de vulnerabilidades (CVEs) para apoio em análises técnicas e de risco.
 
 📂 Script:
-- `scripts/cve_fetch.py`
+- [`scripts/cve_fetch.py`](scripts/cve_fetch.py)
 
 📸 Evidência:
-- `prints/cve_fetch.png`
+- ![CVE Fetch](prints/cve_fetch.png)
 
 ---
 
 ### 📡 Análise de Tráfego de Rede
-Captura e inspeção de pacotes de rede para identificação de comportamentos suspeitos.
+Captura e análise de pacotes de rede para identificação de comportamentos suspeitos.
 
 📂 Script:
-- `scripts/traffic_analysis.py`
+- [`scripts/traffic_analysis.py`](scripts/traffic_analysis.py)
 
 📸 Evidência:
-- `prints/traffic_capture.png`
+- ![Traffic Analysis](prints/traffic_capture.png)
 
 ---
 
@@ -118,5 +118,3 @@ Python • Cibersegurança • GRC • LGPD
 MBA em Cibersegurança e Gestão de Riscos (em andamento)
 
 🔗 GitHub: https://github.com/marcioaugustomazzochi
-
-
