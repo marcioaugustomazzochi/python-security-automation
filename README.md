@@ -18,16 +18,16 @@ Projeto prático de automação de segurança da informação, desenvolvido em *
 ## ⚙️ Funcionalidades
 
 ### 🔎 Varredura de Vulnerabilidades
-- Execução automatizada de scans com **Nmap**
-- Identificação de serviços e versões expostas
+- Execução automatizada de scans com **Nmap**  
+- Identificação de serviços e versões expostas  
 
 ### 🛡️ Coleta de Inteligência de Ameaças
-- Consulta a APIs públicas de CVE
-- Exposição de vulnerabilidades recentes e riscos técnicos
+- Consulta a APIs públicas de CVE  
+- Exposição de vulnerabilidades recentes e riscos técnicos  
 
 ### 🌐 Análise de Tráfego de Rede
-- Captura e inspeção de pacotes com **Scapy**
-- Base para identificação de comportamentos suspeitos
+- Captura e inspeção de pacotes com **Scapy**  
+- Base para identificação de comportamentos suspeitos  
 
 ---
 
@@ -37,42 +37,34 @@ Projeto prático de automação de segurança da informação, desenvolvido em *
 - Nmap  
 - Scapy  
 - Requests  
-- Kali Linux (ambiente de laboratório)
+- Kali Linux (ambiente de laboratório)  
 
 ---
 
 ## 📁 Estrutura do Projeto
 
+```text
 python-security-automation/
 ├── scans/
-│ └── nmap_scan.py
+│   └── nmap_scan.py
 ├── threat_intel/
-│ └── cve_collector.py
+│   └── cve_collector.py
 ├── traffic_analysis/
-│ └── scapy_sniffer.py
+│   └── scapy_sniffer.py
 ├── reports/
-│ └── README.md
+│   └── README.md
 ├── Impressões/
-│ └── README.md
+│   └── README.md
 ├── requirements.txt
 ├── LICENSE
 └── README.md
+📸 Evidências Práticas de Execução
+Para comprovar a execução real dos scripts e a automação funcionando na prática, este projeto conta com evidências visuais obtidas em laboratório controlado.
 
+👉 Ver prints do laboratório e evidências técnicas:
+📸 Acessar evidências práticas de execução
 
----
-
-## 📸 Evidências Práticas de Execução
-
-Para comprovar a **execução real dos scripts** e a **automação funcionando na prática**, este projeto conta com evidências visuais obtidas em laboratório controlado.
-
-👉 **Ver prints do laboratório e evidências técnicas:**  
-[📸 Acessar evidências práticas de execução](Impressões/README.md)
-
----
-
-## 🚀 Instalação
-
-```bash
+🚀 Instalação
 git clone https://github.com/marcioaugustomazzochi/python-security-automation.git
 cd python-security-automation
 pip install -r requirements.txt
@@ -109,3 +101,4 @@ Consulte o arquivo LICENSE para mais detalhes.
 Márcio Augusto Mazzocchi
 🔐 Segurança da Informação | Cibersegurança | Automação com Python
 💻 GitHub: https://github.com/marcioaugustomazzochi
+
