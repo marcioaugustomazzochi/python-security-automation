@@ -80,6 +80,7 @@ python-security-automation/
 ├─ README.md
 ├─ requirements.txt
 └─ LICENSE
+
 ⚙️ Instalação
 git clone https://github.com/marcioaugustomazzochi/python-security-automation.git
 cd python-security-automation
