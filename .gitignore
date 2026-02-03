@@ -1,11 +1,26 @@
-# Build and Release Folders
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+*.egg
+
+# ==============================
+# ActionScript / Flash / Flex
+# ==============================
 bin-debug/
 bin-release/
 [Oo]bj/
 [Bb]in/
-
-# Other files and folders
-.settings/
 
 # Executables
 *.swf
@@ -13,6 +28,33 @@ bin-release/
 *.ipa
 *.apk
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# Project files (keep these)
+!.project
+!.actionScriptProperties
+!.flexProperties
+
+# ==============================
+# IDE / Editor
+# ==============================
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.settings/
+
+# ==============================
+# OS / System files
+# ==============================
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Logs
+# ==============================
+*.log
+
+# ==============================
+# Others
+# ==============================
+*.tmp
+*.bak
