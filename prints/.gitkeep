@@ -1,31 +1,86 @@
-📸 Evidências Práticas (Impressões)
+# 📸 Evidências Práticas (Impressões)
 
-Esta pasta contém **prints reais de execução** dos scripts do projeto **Automação de Segurança em Python**, demonstrando o funcionamento prático das principais funcionalidades.
+Esta pasta contém **evidências visuais reais da execução** dos scripts do projeto **Automação de Segurança em Python**, comprovando o funcionamento prático das funcionalidades desenvolvidas.
 
-As imagens foram capturadas durante testes realizados em **ambiente de laboratório controlado** (ex.: Kali Linux com Metasploitable) e servem como evidência de que:
+Todos os prints foram capturados durante testes realizados em **ambiente de laboratório controlado**, utilizando **Kali Linux** e **Metasploitable**, exclusivamente para fins **educacionais e de portfólio profissional**.
+
+Essas evidências demonstram que:
 
 - os scripts foram executados com sucesso;
 - as saídas geram resultados concretos;
-- as ferramentas integradas (Nmap, coleta de CVE e análise de tráfego) funcionam conforme esperado.
+- as ferramentas integradas funcionam conforme o esperado;
+- o projeto foi validado na prática.
 
-📁 Conteúdo da Pasta
+---
 
-Cada imagem representa uma etapa prática do projeto:
+## 📁 Conteúdo da Pasta
 
-- **01-nmap-scan.png** – resultado de um scan automatizado com Nmap  
-- **02-cve-fetch.png** – saída da coleta automatizada de vulnerabilidades (CVEs)  
-- **03-traffic-capture.png** – captura e análise de pacotes de rede com Scapy  
+### 🔍 Varredura de Vulnerabilidades com Nmap
+Resultado da execução automatizada de um scan de vulnerabilidades utilizando **Nmap**, com identificação de serviços, portas abertas e versões expostas no alvo de laboratório.
 
-🧠 Por que essas evidências são importantes
+📸 Evidência:  
+![Nmap Scan](./01-nmap-scan.png)
+
+---
+
+### 🌐 Coleta de Vulnerabilidades (CVE)
+Execução do script responsável pela **coleta automatizada de vulnerabilidades públicas (CVEs)**, demonstrando a obtenção de informações relevantes para apoio em análises técnicas e de risco.
+
+📸 Evidência:  
+![CVE Fetch](./02-cve-fetch.png)
+
+---
+
+### 📡 Análise de Tráfego de Rede
+Captura e inspeção de pacotes de rede utilizando **Scapy**, servindo como base para identificação de padrões, comunicações suspeitas e estudo do tráfego de rede.
+
+📸 Evidência:  
+![Traffic Capture](./03-traffic-capture.png)
+
+---
+
+### 🧪 Execução Geral do Projeto em Laboratório
+Demonstração da **execução prática dos scripts no ambiente Kali Linux**, evidenciando o uso do terminal e a integração das ferramentas desenvolvidas em Python.
+
+Este print comprova que:
+
+- o ambiente de testes está corretamente configurado;
+- os scripts são executados via linha de comando;
+- o projeto foi validado por meio de execução real.
+
+📸 Evidência:  
+![Execução em Laboratório](./04-execucao-laboratorio.png)
+
+---
+
+### 📊 Consolidação dos Resultados e Evidência Final
+Este print representa a **consolidação final da execução do projeto**, reunindo as evidências práticas obtidas durante os testes em laboratório.
+
+Ele demonstra:
+
+- a finalização bem-sucedida das etapas do projeto;
+- a consistência dos resultados obtidos;
+- a validação completa do laboratório prático;
+- a maturidade do projeto como item de portfólio profissional.
+
+📸 Evidência:  
+![Evidência Final](./05-evidencia-final.png)
+
+---
+
+## 🧠 Importância das Evidências
 
 A inclusão de evidências visuais:
 
 - facilita a compreensão do funcionamento do projeto;
-- permite que recrutadores e avaliadores vejam a **execução real do código**;
-- demonstra que o projeto vai além da teoria e foi validado na prática.
+- permite que recrutadores e avaliadores vejam a **aplicação real do código**;
+- demonstra domínio prático em **Cibersegurança e Automação com Python**;
+- reforça o projeto como **portfólio técnico validado na prática**.
 
-⚠️ Aviso Ético
+---
+
+## ⚠️ Aviso Ético e Legal
 
 Todos os testes apresentados nesta pasta foram realizados **exclusivamente em ambientes controlados e autorizados**, com finalidade **educacional, de laboratório e de portfólio profissional**.
 
-🚫 O uso dos scripts fora desse contexto é ilegal e antiético.
+🚫 O uso destes scripts fora desse contexto é **ilegal e antiético** e não é responsabilidade deste projeto.
