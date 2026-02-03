@@ -1,3 +1,7 @@
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Nmap](https://img.shields.io/badge/Nmap-Scanning-green)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
 # 🔐 Automação de Segurança em Python
 
 Projeto prático de automação de segurança da informação, desenvolvido em **Python**, com foco em **varredura de vulnerabilidades**, **coleta de inteligência de ameaças** e **análise de tráfego de rede**, aplicado exclusivamente em **ambientes controlados e autorizados**.
