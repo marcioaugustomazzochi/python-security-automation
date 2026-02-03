@@ -19,6 +19,8 @@ gera resultados reais, utilizáveis em análise técnica e relatórios.
 
 📸 Arquivo: 1_printsnmap_basic_scan_metasploitable.png
 
+
+
 Este print apresenta a execução automatizada de um scan básico, acionado por um script Python, responsável por iniciar o Nmap e coletar os resultados iniciais.
 
 🧠 O que esta evidência demonstra:
