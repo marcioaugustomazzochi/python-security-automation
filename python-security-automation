@@ -1,4 +1,4 @@
-# 🛡️ Automação de Segurança em Python
+🛡️ Automação de Segurança em Python
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![Cybersecurity](https://img.shields.io/badge/Cybersecurity-Automation-red)
@@ -8,20 +8,16 @@ Projeto focado na **automação de processos de Segurança da Informação** uti
 
 O objetivo é demonstrar **conhecimento técnico aplicado**, boas práticas de automação, segurança e conformidade em **ambientes controlados e devidamente autorizados**.
 
----
-
-## 🎯 Objetivos do Projeto
+🎯 Objetivos do Projeto
 
 - Automatizar tarefas comuns de Segurança da Informação  
 - Facilitar análises técnicas e apoio à resposta a incidentes  
 - Demonstrar habilidades práticas para portfólio profissional  
 - Aplicar conceitos de **Cibersegurança, GRC, LGPD e boas práticas de conformidade**  
 
----
+📌 Funcionalidades
 
-## 📌 Funcionalidades
-
-### 🔍 Varredura de Vulnerabilidades com Nmap
+🔍 Varredura de Vulnerabilidades com Nmap
 Automatização de scans para identificação de hosts, serviços, versões e potenciais vulnerabilidades.
 
 📂 Script:
@@ -30,9 +26,7 @@ Automatização de scans para identificação de hosts, serviços, versões e po
 📸 Evidência:
 - ![Nmap Scan](prints/nmap_scan.png)
 
----
-
-### 🌐 Coleta de Dados de Ameaças (CVE)
+🌐 Coleta de Dados de Ameaças (CVE)
 Coleta automatizada de dados públicos de vulnerabilidades (CVEs) para apoio em análises de risco e priorização.
 
 📂 Script:
@@ -41,9 +35,7 @@ Coleta automatizada de dados públicos de vulnerabilidades (CVEs) para apoio em 
 📸 Evidência:
 - ![CVE Fetch](prints/cve_fetch.png)
 
----
-
-### 📡 Análise de Tráfego de Rede
+📡 Análise de Tráfego de Rede
 Captura e análise de pacotes de rede para identificação de comportamentos suspeitos e atividades anômalas.
 
 📂 Script:
@@ -52,9 +44,7 @@ Captura e análise de pacotes de rede para identificação de comportamentos sus
 📸 Evidência:
 - ![Traffic Analysis](prints/traffic_capture.png)
 
----
-
-## 🛠️ Tecnologias Utilizadas
+🛠️ Tecnologias Utilizadas
 
 - Python 3.x  
 - Nmap  
@@ -63,9 +53,7 @@ Captura e análise de pacotes de rede para identificação de comportamentos sus
 - Kali Linux  
 - VirtualBox (ambiente de laboratório)  
 
----
-
-## ⚙️ Estrutura do Projeto
+⚙️ Estrutura do Projeto
 
 ```text
 python-security-automation/
