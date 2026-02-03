@@ -1,155 +1,122 @@
 📸 Evidências Práticas — Automação de Segurança com Python
 
-Esta pasta contém evidências visuais reais da execução automatizada dos scripts do projeto Automação de Segurança com Python.
+Esta pasta contém evidências visuais reais da execução automatizada dos scripts do projeto **Automação de Segurança com Python**.
 
-Os prints demonstram a saída prática dos scripts Python, que utilizam o Nmap como engine de varredura, automatizando tarefas de reconhecimento, enumeração de serviços e coleta de evidências técnicas.
+Os prints demonstram a saída prática dos scripts Python, que utilizam o **Nmap** como engine de varredura, automatizando tarefas de reconhecimento, enumeração de serviços e coleta de evidências técnicas.
 
-Todos os testes foram realizados em ambiente de laboratório controlado e autorizado, utilizando Kali Linux e a máquina vulnerável Metasploitable, exclusivamente para fins educacionais e de portfólio profissional.
+Todos os testes foram realizados em ambiente de laboratório controlado e autorizado, utilizando **Kali Linux** e a máquina vulnerável **Metasploitable**, exclusivamente para fins educacionais e de portfólio profissional.
 
-🎯 Objetivo das evidências:
+---
+
+## 🎯 Objetivo das evidências
 
 Comprovar que o projeto:
 
-executa varreduras de segurança de forma automatizada;
+- executa varreduras de segurança de forma automatizada;
+- coleta informações relevantes sem intervenção manual;
+- gera resultados reais, utilizáveis em análise técnica e relatórios.
 
-coleta informações relevantes sem intervenção manual;
+---
 
-gera resultados reais, utilizáveis em análise técnica e relatórios.
+## 🐍 Evidência 01 — Automação de Scan Básico com Python + Nmap
 
-🐍 Evidência 01 — Automação de Scan Básico com Python + Nmap
-
-![Evidência 01 — Scan Básico Nmap](1_printsnmap_basic_scan_metasploitable.png)
+![Evidência 01 — Scan Básico Nmap](https://raw.githubusercontent.com/marcioaugustomazzochi/python-security-automation/main/prints/1_printsnmap_basic_scan_metasploitable.png)
 
 Este print apresenta a execução automatizada de um scan básico, acionado por um script Python, responsável por iniciar o Nmap e coletar os resultados iniciais.
 
-🧠 O que esta evidência demonstra:
+**Demonstra:**
+- automação da descoberta de portas abertas;
+- identificação inicial de serviços via script;
+- substituição de comandos manuais por execução programada.
 
-automação da descoberta de portas abertas;
+➡️ Primeiro estágio da automação de segurança.
 
-identificação inicial de serviços via script;
+---
 
-substituição de comandos manuais por execução programada;
+## 🐍 Evidência 02 — Automação de Enumeração Avançada de Serviços
 
-base para decisões automáticas nas próximas etapas.
+![Evidência 02 — Enumeração Avançada](https://raw.githubusercontent.com/marcioaugustomazzochi/python-security-automation/main/prints/2_printsnmap_enum_metasploitable.png)
 
-➡️ Representa o primeiro estágio da automação de segurança.
+Este print mostra a enumeração avançada de serviços executada automaticamente via Python + Nmap.
 
-🐍 Evidência 02 — Automação de Enumeração Avançada de Serviços
+**Demonstra:**
+- coleta de versões de serviços;
+- aumento da profundidade do scan;
+- preparação de dados para análise de vulnerabilidades.
 
-📸 Arquivo: 2_printsnmap_enum_metasploitable.png
+---
 
-Este print mostra a enumeração avançada de serviços, executada automaticamente por Python utilizando opções e scripts do Nmap.
+## 🐍 Evidência 03 — Automação de Enumeração SMB (Acesso Anônimo)
 
-🔍 Evidencia que o script:
-
-coleta versões de serviços;
-
-amplia a profundidade do scan sem ação manual;
-
-prepara dados para análise de vulnerabilidades;
-
-segue uma lógica automatizada de enumeração.
-
-➡️ Aqui o projeto deixa claro que não é apenas um scan simples, mas uma rotina automatizada de análise.
-
-🐍 Evidência 03 — Automação de Enumeração SMB (Acesso Anônimo)
-
-📸 Arquivo: 3_smb_enum_anonymous_rw
+![Evidência 03 — Enumeração SMB](https://raw.githubusercontent.com/marcioaugustomazzochi/python-security-automation/main/prints/3_smb_enum_anonymous_rw.png)
 
 Este print demonstra a enumeração automatizada do serviço SMB, identificando acesso anônimo com permissões de leitura e escrita.
 
-⚠️ O que o script conseguiu identificar:
+**Identificado automaticamente:**
+- serviço SMB vulnerável;
+- autenticação anônima habilitada;
+- risco real de exposição de dados.
 
-serviço SMB vulnerável;
+---
 
-autenticação anônima habilitada;
+## 🐍 Evidência 04 — Automação de Enumeração NFS
 
-risco real de exposição de dados;
+![Evidência 04 — Enumeração NFS](https://raw.githubusercontent.com/marcioaugustomazzochi/python-security-automation/main/prints/4_nfs_enum_no_exports_metasploitable.png)
 
-falha crítica detectada automaticamente.
+Enumeração automática do serviço NFS, indicando ausência de restrições adequadas nos exports.
 
-➡️ Evidência clara de automação na identificação de falhas de configuração.
+**Demonstra:**
+- detecção de serviços de compartilhamento;
+- identificação de configurações inseguras;
+- coleta automatizada de dados técnicos.
 
-🐍 Evidência 04 — Automação de Enumeração NFS
+---
 
-📸 Arquivo: 4_nfs_enum_no_exports_metasploitable
+## 🐍 Evidência 05 — Automação de Enumeração FTP (vsftpd 2.3.4)
 
-Neste print é apresentada a enumeração automática do serviço NFS, indicando ausência de restrições adequadas nos exports.
+![Evidência 05 — Enumeração FTP](https://raw.githubusercontent.com/marcioaugustomazzochi/python-security-automation/main/prints/5_ftp_enum_anonymous_vsftpd_2.3.4.png)
 
-🧠 Demonstra que o script:
+Enumeração automatizada do serviço FTP, identificando login anônimo e versão vulnerável do serviço.
 
-detecta serviços de compartilhamento ativos;
+**Permite:**
+- correlação entre versão e risco;
+- identificação rápida de superfícies exploráveis;
+- ganho de eficiência em análises repetitivas.
 
-identifica configurações inseguras;
+---
 
-coleta informações relevantes para análise de risco;
+## 🐍 Evidência 06 — Automação de Enumeração do Serviço HTTP
 
-atua sem necessidade de intervenção manual.
+![Evidência 06 — Enumeração HTTP](https://raw.githubusercontent.com/marcioaugustomazzochi/python-security-automation/main/prints/6_http_enum_metasploitable_nmap_results.png)
 
-➡️ Mostra domínio de automação aplicada a serviços Linux/Unix.
+Resultados da enumeração automatizada do serviço HTTP, coletados via Nmap e organizados pelo script Python.
 
-🐍 Evidência 05 — Automação de Enumeração FTP (vsftpd 2.3.4)
+**Demonstra:**
+- identificação de serviços web ativos;
+- coleta de informações expostas;
+- preparação para análises de segurança web.
 
-📸 Arquivo: 5_ftp_enum_anonymous_vsftpd_2.3.4
+---
 
-Este print evidencia a enumeração automatizada do serviço FTP, identificando:
-
-login anônimo habilitado;
-
-versão vulnerável do serviço (vsftpd 2.3.4).
-
-🚨 O script automatizado permite:
-
-correlação entre versão e risco;
-
-identificação rápida de superfícies exploráveis;
-
-ganho de tempo em análises repetitivas.
-
-➡️ Exemplo claro de automação focada em eficiência e escala.
-
-🐍 Evidência 06 — Automação de Enumeração do Serviço HTTP
-
-📸 Arquivo: 6_http_enum_metasploitable_nmap_results
-
-Este print apresenta os resultados da enumeração automatizada do serviço HTTP, coletados via Nmap e organizados pelo script Python.
-
-🔎 Demonstra que o projeto:
-
-identifica serviços web ativos;
-
-coleta informações expostas pelo servidor;
-
-prepara dados para futuras análises de segurança web;
-
-fecha o ciclo automatizado de enumeração.
-
-➡️ Consolida a automação aplicada a serviços de rede e aplicação.
-
-🧠 O Que Estas Evidências Comprovam
+## 🧠 O que estas evidências comprovam
 
 Em conjunto, os prints demonstram que o projeto:
 
-automatiza tarefas reais de segurança com Python;
+- automatiza tarefas reais de segurança com Python;
+- integra ferramentas amplamente usadas no mercado (Nmap);
+- reduz trabalho manual repetitivo;
+- gera evidências práticas e reproduzíveis.
 
-integra ferramentas do mercado (Nmap);
+📌 **Não é um projeto teórico — é automação funcional validada em laboratório.**
 
-reduz trabalho manual repetitivo;
+---
 
-gera evidências práticas e reproduzíveis;
+## ⚠️ Aviso Ético e Legal
 
-está alinhado com rotinas reais de Segurança da Informação.
+Todos os testes foram executados **exclusivamente em ambientes controlados e autorizados**, com finalidade:
 
-📌 Não é um projeto teórico — é automação funcional validada em laboratório.
-
-⚠️ Aviso Ético e Legal
-
-Todos os testes apresentados foram executados exclusivamente em ambientes controlados e autorizados, com finalidade:
-
-educacional;
-
-laboratório prático;
-
-portfólio profissional.
+- educacional;
+- laboratório prático;
+- portfólio profissional.
 
 🚫 O uso destes scripts fora desse contexto é ilegal e antiético.
