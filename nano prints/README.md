@@ -125,6 +125,6 @@ Todos os testes foram executados **exclusivamente em ambientes controlados e aut
 
 - educacional;
 - laboratório prático;
-- project profissional.
+- projeto profissional.
 
 🚫 O uso destes scripts fora desse contexto é ilegal e antiético.
