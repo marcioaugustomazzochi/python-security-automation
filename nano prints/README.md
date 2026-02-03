@@ -20,7 +20,7 @@ Comprovar que o projeto:
 
 ## 🐍 Evidência 01 — Automação de Scan Básico com Python + Nmap
 
-![Evidência 01 — Scan Básico Nmap](https://raw.githubusercontent.com/marcioaugustomazzochi/python-security-automation/main/prints/1_printsnmap_basic_scan_metasploitable.png)
+![Evidência 01 — Scan Básico Nmap](1_printsnmap_basic_scan_metasploitable.png)
 
 Este print apresenta a execução automatizada de um scan básico, acionado por um script Python, responsável por iniciar o Nmap e coletar os resultados iniciais.
 
