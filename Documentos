@@ -1,0 +1,107 @@
+🛡️ Automação de Segurança em Python
+
+Projeto focado na **automação de processos de Segurança da Informação** utilizando Python, com abordagem prática e orientada a **portfólio profissional**.
+
+O objetivo é demonstrar **conhecimento técnico aplicado**, boas práticas de segurança e automação em **ambientes controlados e autorizados**.
+
+🎯 Objetivos do Projeto
+
+- Automatizar tarefas comuns de segurança  
+- Facilitar análises técnicas e resposta a incidentes  
+- Demonstrar habilidades práticas para portfólio profissional  
+- Aplicar conceitos de Cibersegurança, GRC e boas práticas de conformidade  
+
+📌 Funcionalidades
+
+🔍 Varredura de Vulnerabilidades com Nmap
+Automatização de scans para identificação de serviços, versões e potenciais vulnerabilidades.
+
+📂 Script:  
+- [`scripts/nmap_scan.py`](scripts/nmap_scan.py)
+
+📸 Evidência:  
+![Nmap Scan](prints/nmap_scan.png)
+
+### 🌐 Coleta de Dados de Ameaças (CVE)
+Coleta automatizada de dados públicos de vulnerabilidades (CVEs) para apoio em análises de risco.
+
+📂 Script:  
+- [`scripts/cve_fetch.py`](scripts/cve_fetch.py)
+
+📸 Evidência:  
+![CVE Fetch](prints/cve_fetch.png)
+
+📡 Análise de Tráfego de Rede
+Captura e análise de pacotes de rede para identificação de comportamentos suspeitos.
+
+📂 Script:  
+- [`scripts/traffic_analysis.py`](scripts/traffic_analysis.py)
+
+📸 Evidência:  
+![Traffic Analysis](prints/traffic_capture.png)
+
+🛠️ Tecnologias Utilizadas
+
+- Python 3.x  
+- Nmap  
+- Scapy  
+- Requests  
+- Kali Linux  
+- VirtualBox  
+
+## ⚙️ Estrutura do Projeto
+
+```text
+python-security-automation/
+├─ scripts/
+│  ├─ nmap_scan.py
+│  ├─ cve_fetch.py
+│  └─ traffic_analysis.py
+├─ prints/
+│  ├─ nmap_scan.png
+│  ├─ cve_fetch.png
+│  └─ traffic_capture.png
+├─ README.md
+├─ requirements.txt
+└─ LICENSE
+
+⚙️ Instalação
+git clone https://github.com/marcioaugustomazzochi/python-security-automation.git
+cd python-security-automation
+pip install -r requirements.txt
+💻 Exemplos de Uso
+Varredura com Nmap
+python scripts/nmap_scan.py 192.168.56.124
+Exemplo de alvo: Metasploitable em laboratório virtualizado.
+
+Coleta de CVEs
+python scripts/cve_fetch.py
+Análise de Tráfego
+python scripts/traffic_analysis.py
+🗺️ Roadmap
+✔ Varredura de vulnerabilidades com NmaP
+
+✔ Coleta de dados de ameaças (CVE)
+
+✔ Análise básica de tráfego com Scapy
+
+⬜ Análise de tráfego avançada
+
+⬜ Geração automática de relatórios
+
+⬜ Integração com dashboards
+
+⚠️ Aviso Ético
+Este projeto é exclusivamente educacional.
+
+Todos os scripts devem ser utilizados apenas em ambientes controlados e com autorização explícita.
+O uso indevido é ilegal e antiético.
+
+📄 Licença
+Este projeto está licenciado sob a MIT License.
+Consulte o arquivo LICENSE para mais detalhes.
+
+👤 Autor
+Márcio Augusto Mazzocchi
+Analista de Segurança da Informação
+Python • Cibersegurança • GRC • LGPD
