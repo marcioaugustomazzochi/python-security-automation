@@ -1,86 +1,120 @@
-# 📸 Evidências Práticas (Impressões)
+# 📸 Evidências Práticas — Execução Real do Projeto
 
-Esta pasta contém **evidências visuais reais da execução** dos scripts do projeto **Automação de Segurança em Python**, comprovando o funcionamento prático das funcionalidades desenvolvidas.
+Esta pasta reúne **evidências visuais reais** da execução do projeto  
+**🛡️ Automação de Segurança em Python**, comprovando que os scripts foram:
 
-Todos os prints foram capturados durante testes realizados em **ambiente de laboratório controlado**, utilizando **Kali Linux** e **Metasploitable**, exclusivamente para fins **educacionais e de portfólio profissional**.
+✅ desenvolvidos  
+✅ executados  
+✅ validados na prática  
 
-Essas evidências demonstram que:
+Todos os testes foram realizados em **ambiente de laboratório controlado**, utilizando:
 
-- os scripts foram executados com sucesso;
-- as saídas geram resultados concretos;
-- as ferramentas integradas funcionam conforme o esperado;
-- o projeto foi validado na prática.
+- 🐉 **Kali Linux**
+- 🎯 **Metasploitable**
+- 🧪 Finalidade **educacional e portfólio profissional**
 
 ---
 
-## 📁 Conteúdo da Pasta
+## ✅ O que estas evidências comprovam
 
-### 🔍 Varredura de Vulnerabilidades com Nmap
-Resultado da execução automatizada de um scan de vulnerabilidades utilizando **Nmap**, com identificação de serviços, portas abertas e versões expostas no alvo de laboratório.
+✔ Execução real dos scripts  
+✔ Resultados concretos em terminal  
+✔ Uso prático de ferramentas de mercado  
+✔ Projeto validado além do código  
 
-📸 Evidência:  
+---
+
+## 📂 Evidências Documentadas
+
+### 🔍 01 — Varredura de Vulnerabilidades (Nmap)
+
+Execução automatizada de **scan de vulnerabilidades com Nmap**, identificando:
+
+- portas abertas  
+- serviços ativos  
+- versões expostas  
+
+📸 **Print da execução real:**  
 ![Nmap Scan](./01-nmap-scan.png)
 
 ---
 
-### 🌐 Coleta de Vulnerabilidades (CVE)
-Execução do script responsável pela **coleta automatizada de vulnerabilidades públicas (CVEs)**, demonstrando a obtenção de informações relevantes para apoio em análises técnicas e de risco.
+### 🌐 02 — Coleta de Vulnerabilidades (CVE)
 
-📸 Evidência:  
+Execução do script de **coleta automatizada de CVEs**, demonstrando:
+
+- consumo de dados públicos de vulnerabilidades  
+- apoio à análise técnica e de risco  
+- integração com fontes de threat intelligence  
+
+📸 **Print da execução real:**  
 ![CVE Fetch](./02-cve-fetch.png)
 
 ---
 
-### 📡 Análise de Tráfego de Rede
-Captura e inspeção de pacotes de rede utilizando **Scapy**, servindo como base para identificação de padrões, comunicações suspeitas e estudo do tráfego de rede.
+### 📡 03 — Análise de Tráfego de Rede (Scapy)
 
-📸 Evidência:  
+Captura e análise de pacotes de rede com **Scapy**, utilizada para:
+
+- inspeção de tráfego  
+- estudo de comunicações  
+- identificação de padrões suspeitos  
+
+📸 **Print da execução real:**  
 ![Traffic Capture](./03-traffic-capture.png)
 
 ---
 
-### 🧪 Execução Geral do Projeto em Laboratório
-Demonstração da **execução prática dos scripts no ambiente Kali Linux**, evidenciando o uso do terminal e a integração das ferramentas desenvolvidas em Python.
+### 🧪 04 — Execução dos Scripts no Ambiente Kali Linux
 
-Este print comprova que:
+Demonstração clara da **execução dos scripts via terminal**, evidenciando que:
 
-- o ambiente de testes está corretamente configurado;
-- os scripts são executados via linha de comando;
-- o projeto foi validado por meio de execução real.
+- o ambiente está corretamente configurado  
+- os scripts funcionam via linha de comando  
+- o projeto é operacional e funcional  
 
-📸 Evidência:  
+📸 **Print da execução real:**  
 ![Execução em Laboratório](./04-execucao-laboratorio.png)
 
 ---
 
-### 📊 Consolidação dos Resultados e Evidência Final
-Este print representa a **consolidação final da execução do projeto**, reunindo as evidências práticas obtidas durante os testes em laboratório.
+### 📊 05 — Consolidação Final do Laboratório
 
-Ele demonstra:
+Evidência final do projeto em execução, representando:
 
-- a finalização bem-sucedida das etapas do projeto;
-- a consistência dos resultados obtidos;
-- a validação completa do laboratório prático;
-- a maturidade do projeto como item de portfólio profissional.
+- conclusão das etapas práticas  
+- consistência dos resultados  
+- validação completa do laboratório  
 
-📸 Evidência:  
+Este print consolida o projeto como **item de portfólio técnico**, e não apenas código isolado.
+
+📸 **Print da execução real:**  
 ![Evidência Final](./05-evidencia-final.png)
 
 ---
 
-## 🧠 Importância das Evidências
+## 🧠 Por que essas evidências importam
 
-A inclusão de evidências visuais:
+Essas imagens permitem que qualquer avaliador veja:
 
-- facilita a compreensão do funcionamento do projeto;
-- permite que recrutadores e avaliadores vejam a **aplicação real do código**;
-- demonstra domínio prático em **Cibersegurança e Automação com Python**;
-- reforça o projeto como **portfólio técnico validado na prática**.
+🔹 o código funcionando  
+🔹 o uso real das ferramentas  
+🔹 a aplicação prática em Cibersegurança  
+🔹 maturidade técnica e organização  
+
+👉 **Isso é exatamente o que recrutadores querem ver.**
 
 ---
 
 ## ⚠️ Aviso Ético e Legal
 
-Todos os testes apresentados nesta pasta foram realizados **exclusivamente em ambientes controlados e autorizados**, com finalidade **educacional, de laboratório e de portfólio profissional**.
+Todos os testes apresentados foram executados **exclusivamente em ambientes controlados e autorizados**.
 
-🚫 O uso destes scripts fora desse contexto é **ilegal e antiético** e não é responsabilidade deste projeto.
+🚫 Qualquer uso fora desse contexto é **ilegal e antiético**  
+🚫 Este projeto **não se responsabiliza** por uso indevido
+
+---
+
+📌 **Resumo:**  
+Este diretório comprova, com evidências visuais, que o projeto  
+**🛡️ Automação de Segurança em Python** foi **executado, testado e validado na prática**.
