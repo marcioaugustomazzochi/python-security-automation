@@ -61,9 +61,6 @@ python-security-automation/
 📸 Evidências Práticas de Execução
 Para comprovar a execução real dos scripts e a automação funcionando na prática, este projeto conta com evidências visuais obtidas em laboratório controlado.
 
-👉 Ver prints do laboratório e evidências técnicas:
-📸 Acessar evidências práticas de execução
-
 🚀 Instalação
 git clone https://github.com/marcioaugustomazzochi/python-security-automation.git
 cd python-security-automation
