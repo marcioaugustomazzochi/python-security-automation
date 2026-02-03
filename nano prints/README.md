@@ -38,7 +38,8 @@ Este print apresenta a execução automatizada de um scan básico, acionado por 
 
 ## 🐍 Evidência 02 — Automação de Enumeração Avançada de Serviços
 
-![Evidência 02 — Enumeração Avançada](https://raw.githubusercontent.com/marcioaugustomazzochi/python-security-automation/main/prints/2_printsnmap_enum_metasploitable.png)
+<img width="1920" height="936" alt="2 printsnmap_enum_metasploitable" src="https://github.com/user-attachments/assets/0e11c3a8-94d3-47a2-815b-1618bc2cd063" />
+
 
 Este print mostra a enumeração avançada de serviços executada automaticamente via Python + Nmap.
 
@@ -51,7 +52,8 @@ Este print mostra a enumeração avançada de serviços executada automaticament
 
 ## 🐍 Evidência 03 — Automação de Enumeração SMB (Acesso Anônimo)
 
-![Evidência 03 — Enumeração SMB](https://raw.githubusercontent.com/marcioaugustomazzochi/python-security-automation/main/prints/3_smb_enum_anonymous_rw.png)
+<img width="1920" height="936" alt="3 smb_enum_anonymous_rw" src="https://github.com/user-attachments/assets/5e243148-a4be-461f-9202-1c0454a6b009" />
+
 
 Este print demonstra a enumeração automatizada do serviço SMB, identificando acesso anônimo com permissões de leitura e escrita.
 
@@ -64,7 +66,8 @@ Este print demonstra a enumeração automatizada do serviço SMB, identificando 
 
 ## 🐍 Evidência 04 — Automação de Enumeração NFS
 
-![Evidência 04 — Enumeração NFS](https://raw.githubusercontent.com/marcioaugustomazzochi/python-security-automation/main/prints/4_nfs_enum_no_exports_metasploitable.png)
+<img width="1920" height="936" alt="4 nfs_enum_no_exports_metasploitable" src="https://github.com/user-attachments/assets/f84d59eb-91d4-44f0-b6ff-f3dc38c48772" />
+
 
 Enumeração automática do serviço NFS, indicando ausência de restrições adequadas nos exports.
 
@@ -77,7 +80,8 @@ Enumeração automática do serviço NFS, indicando ausência de restrições ad
 
 ## 🐍 Evidência 05 — Automação de Enumeração FTP (vsftpd 2.3.4)
 
-![Evidência 05 — Enumeração FTP](https://raw.githubusercontent.com/marcioaugustomazzochi/python-security-automation/main/prints/5_ftp_enum_anonymous_vsftpd_2.3.4.png)
+<img width="1920" height="936" alt="5 ftp_enum_anonymous_vsftpd_2 3 4" src="https://github.com/user-attachments/assets/d560a2ef-7b09-4fc2-8a74-1118aba53445" />
+
 
 Enumeração automatizada do serviço FTP, identificando login anônimo e versão vulnerável do serviço.
 
@@ -90,7 +94,8 @@ Enumeração automatizada do serviço FTP, identificando login anônimo e versã
 
 ## 🐍 Evidência 06 — Automação de Enumeração do Serviço HTTP
 
-![Evidência 06 — Enumeração HTTP](https://raw.githubusercontent.com/marcioaugustomazzochi/python-security-automation/main/prints/6_http_enum_metasploitable_nmap_results.png)
+<img width="1920" height="936" alt="6 http_enum_metasploitable_nmap_results" src="https://github.com/user-attachments/assets/6caafbfe-b0f7-4cb5-b634-98573805674a" />
+
 
 Resultados da enumeração automatizada do serviço HTTP, coletados via Nmap e organizados pelo script Python.
 
