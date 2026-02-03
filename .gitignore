@@ -1,26 +1,49 @@
-# ==============================
+# ---------------------------
 # Python
-# ==============================
+# ---------------------------
+
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
-*.pyo
-*.pyd
-*.env
-env/
-venv/
-ENV/
+*$py.class
+
+# Distribution / packaging
 build/
 dist/
 *.egg-info/
-*.egg
+.eggs/
 
-# ==============================
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.pyenv/
+pip-wheel-metadata/
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+
+# VSCode / IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ---------------------------
 # ActionScript / Flash / Flex
-# ==============================
+# ---------------------------
+
+# Build and Release Folders
 bin-debug/
 bin-release/
 [Oo]bj/
 [Bb]in/
+
+# Other files and folders
+.settings/
 
 # Executables
 *.swf
@@ -28,33 +51,25 @@ bin-release/
 *.ipa
 *.apk
 
-# Project files (keep these)
+# Project files that should be kept
 !.project
 !.actionScriptProperties
 !.flexProperties
 
-# ==============================
-# IDE / Editor
-# ==============================
-.idea/
-.vscode/
-*.sublime-project
-*.sublime-workspace
-.settings/
+# ---------------------------
+# General / OS
+# ---------------------------
 
-# ==============================
-# OS / System files
-# ==============================
+# macOS
 .DS_Store
+
+# Windows
 Thumbs.db
+ehthumbs.db
+Desktop.ini
 
-# ==============================
-# Logs
-# ==============================
-*.log
-
-# ==============================
-# Others
-# ==============================
+# Temporary files
 *.tmp
-*.bak
+*.temp
+*~
+✅ Explicação:
