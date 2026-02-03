@@ -7,6 +7,7 @@ Os prints demonstram a saída prática dos scripts Python, que utilizam o Nmap c
 Todos os testes foram realizados em ambiente de laboratório controlado e autorizado, utilizando Kali Linux e a máquina vulnerável Metasploitable, exclusivamente para fins educacionais e de portfólio profissional.
 
 🎯 Objetivo das evidências:
+
 Comprovar que o projeto:
 
 executa varreduras de segurança de forma automatizada;
