@@ -1,56 +1,56 @@
 # 🛡️ Automação de Segurança em Python
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
-![Security](https://img.shields.io/badge/Cybersecurity-Automation-red)
+![Cybersecurity](https://img.shields.io/badge/Cybersecurity-Automation-red)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-Projeto focado na **automação de processos de segurança da informação** utilizando Python, com abordagem prática e orientada a portfólio profissional.
+Projeto prático de **automação de processos de Segurança da Informação**, desenvolvido em **Python**, com foco em **varredura de vulnerabilidades**, **coleta de inteligência de ameaças** e **análise de tráfego de rede**.
 
-O objetivo é demonstrar **conhecimento técnico aplicado**, boas práticas de segurança e automação em ambientes **controlados e autorizados**.
+Aplicado exclusivamente em **ambientes controlados e autorizados**, com objetivo educacional e de **portfólio profissional em Cibersegurança**.
 
 ---
 
 ## 🎯 Objetivos do Projeto
 
-- Automatizar tarefas comuns de segurança
-- Facilitar análises técnicas e resposta a incidentes
-- Demonstrar habilidades práticas para portfólio profissional
-- Aplicar conceitos de Cibersegurança, GRC e boas práticas de conformidade
+- Automatizar tarefas comuns de segurança ofensiva e defensiva  
+- Facilitar análises técnicas e apoio à resposta a incidentes  
+- Demonstrar habilidades práticas em Python aplicado à Segurança  
+- Aplicar boas práticas de Cibersegurança, GRC e conformidade  
 
 ---
 
 ## 📌 Funcionalidades
 
 ### 🔍 Varredura de Vulnerabilidades com Nmap
-Automatização de scans para identificação de serviços, versões e potenciais vulnerabilidades.
+Automatização de scans para identificação de hosts, serviços, portas e versões expostas.
 
 📂 Script:
-- [`scripts/nmap_scan.py`](scripts/nmap_scan.py)
+- `scripts/nmap_scan.py`
 
 📸 Evidência:
-- ![Nmap Scan](prints/nmap_scan.png)
+- `prints/nmap_scan.png`
 
 ---
 
 ### 🌐 Coleta de Dados de Ameaças (CVE)
-Coleta automatizada de dados públicos de vulnerabilidades (CVEs) para apoio em análises de risco.
+Coleta automatizada de dados públicos de vulnerabilidades (CVEs), auxiliando análises técnicas e de risco.
 
 📂 Script:
-- [`scripts/cve_fetch.py`](scripts/cve_fetch.py)
+- `scripts/cve_fetch.py`
 
 📸 Evidência:
-- ![CVE Fetch](prints/cve_fetch.png)
+- `prints/cve_fetch.png`
 
 ---
 
 ### 📡 Análise de Tráfego de Rede
-Captura e análise de pacotes de rede para identificação de comportamentos suspeitos.
+Captura e inspeção de pacotes de rede para identificação de comportamentos suspeitos.
 
 📂 Script:
-- [`scripts/traffic_analysis.py`](scripts/traffic_analysis.py)
+- `scripts/traffic_analysis.py`
 
 📸 Evidência:
-- ![Traffic Analysis](prints/traffic_capture.png)
+- `prints/traffic_capture.png`
 
 ---
 
@@ -61,11 +61,11 @@ Captura e análise de pacotes de rede para identificação de comportamentos sus
 - Scapy  
 - Requests  
 - Kali Linux  
-- VirtualBox (ambiente de laboratório)
+- VirtualBox (ambiente de laboratório)  
 
 ---
 
-## ⚙️ Estrutura do Projeto
+## 📁 Estrutura do Projeto
 
 ```text
 python-security-automation/
@@ -78,36 +78,34 @@ python-security-automation/
 │  ├─ cve_fetch.png
 │  └─ traffic_capture.png
 ├─ README.md
-└─ requirements.txt
+├─ requirements.txt
+└─ LICENSE
 ⚙️ Instalação
 git clone https://github.com/marcioaugustomazzochi/python-security-automation.git
 cd python-security-automation
 pip install -r requirements.txt
 💻 Exemplos de Uso
-Varredura com Nmap
-from scripts.nmap_scan import run_nmap
+Varredura de Vulnerabilidades com Nmap
+python scripts/nmap_scan.py 192.168.56.124
+Exemplo de alvo: Metasploitable em laboratório virtualizado.
 
-run_nmap("192.168.56.124")  # Exemplo: Metasploitable
 Coleta de CVEs
-from scripts.cve_fetch import get_cve_data
-
-get_cve_data()
+python scripts/cve_fetch.py
+Análise de Tráfego de Rede
+python scripts/traffic_analysis.py
 🗺️ Roadmap
- Varredura de vulnerabilidades com Nmap
+✔ Varredura de vulnerabilidades com Nmap
+✔ Coleta de dados de ameaças (CVE)
+✔ Análise básica de tráfego com Scapy
+⬜ Análise avançada de tráfego
+⬜ Geração automática de relatórios (TXT / HTML / PDF)
+⬜ Integração com dashboards ou SIEM
 
- Coleta de dados de ameaças (CVE)
-
- Análise de tráfego avançada com Scapy
-
- Geração automática de relatórios
-
- Integração com dashboards
-
-⚠️ Aviso Ético
+⚠️ Aviso Ético e Legal
 Este projeto é exclusivamente educacional.
 
-Todos os scripts devem ser utilizados apenas em ambientes controlados e com autorização explícita.
-O uso indevido em redes ou sistemas sem permissão é ilegal e antiético.
+Todos os scripts devem ser utilizados apenas em ambientes controlados, de teste ou com autorização explícita.
+Qualquer uso sem permissão é ilegal e antiético.
 
 📄 Licença
 Este projeto está licenciado sob a MIT License.
@@ -115,6 +113,10 @@ Consulte o arquivo LICENSE para mais detalhes.
 
 👤 Autor
 Márcio Augusto Mazzocchi
-🔐 Analista de Segurança da Informação
-🐍 Python | 🛡️ Cibersegurança | 📜 GRC | 🔒 LGPD
+Analista de Segurança da Informação
+Python • Cibersegurança • GRC • LGPD
+MBA em Cibersegurança e Gestão de Riscos (em andamento)
+
+🔗 GitHub: https://github.com/marcioaugustomazzochi
+
 
