@@ -1,4 +1,6 @@
-📸 Evidências Práticas — Automação de Segurança com Python
+## 📸 Evidências Práticas — Automação de Segurança com Python
+
+---
 
 Esta pasta contém evidências visuais reais da execução automatizada dos scripts do projeto **Automação de Segurança com Python**.
 
