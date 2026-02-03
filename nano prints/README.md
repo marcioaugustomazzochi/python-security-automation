@@ -1,1 +1,155 @@
+📸 Evidências Práticas — Automação de Segurança com Python
 
+Esta pasta contém evidências visuais reais da execução automatizada dos scripts do projeto Automação de Segurança com Python.
+
+Os prints demonstram a saída prática dos scripts Python, que utilizam o Nmap como engine de varredura, automatizando tarefas de reconhecimento, enumeração de serviços e coleta de evidências técnicas.
+
+Todos os testes foram realizados em ambiente de laboratório controlado e autorizado, utilizando Kali Linux e a máquina vulnerável Metasploitable, exclusivamente para fins educacionais e de portfólio profissional.
+
+🎯 Objetivo das evidências:
+
+Comprovar que o projeto:
+
+executa varreduras de segurança de forma automatizada;
+
+coleta informações relevantes sem intervenção manual;
+
+gera resultados reais, utilizáveis em análise técnica e relatórios.
+
+🐍 Evidência 01 — Automação de Scan Básico com Python + Nmap
+
+![Evidência 01 — Scan Básico Nmap](1_printsnmap_basic_scan_metasploitable.png)
+
+Este print apresenta a execução automatizada de um scan básico, acionado por um script Python, responsável por iniciar o Nmap e coletar os resultados iniciais.
+
+🧠 O que esta evidência demonstra:
+
+automação da descoberta de portas abertas;
+
+identificação inicial de serviços via script;
+
+substituição de comandos manuais por execução programada;
+
+base para decisões automáticas nas próximas etapas.
+
+➡️ Representa o primeiro estágio da automação de segurança.
+
+🐍 Evidência 02 — Automação de Enumeração Avançada de Serviços
+
+📸 Arquivo: 2_printsnmap_enum_metasploitable.png
+
+Este print mostra a enumeração avançada de serviços, executada automaticamente por Python utilizando opções e scripts do Nmap.
+
+🔍 Evidencia que o script:
+
+coleta versões de serviços;
+
+amplia a profundidade do scan sem ação manual;
+
+prepara dados para análise de vulnerabilidades;
+
+segue uma lógica automatizada de enumeração.
+
+➡️ Aqui o projeto deixa claro que não é apenas um scan simples, mas uma rotina automatizada de análise.
+
+🐍 Evidência 03 — Automação de Enumeração SMB (Acesso Anônimo)
+
+📸 Arquivo: 3_smb_enum_anonymous_rw
+
+Este print demonstra a enumeração automatizada do serviço SMB, identificando acesso anônimo com permissões de leitura e escrita.
+
+⚠️ O que o script conseguiu identificar:
+
+serviço SMB vulnerável;
+
+autenticação anônima habilitada;
+
+risco real de exposição de dados;
+
+falha crítica detectada automaticamente.
+
+➡️ Evidência clara de automação na identificação de falhas de configuração.
+
+🐍 Evidência 04 — Automação de Enumeração NFS
+
+📸 Arquivo: 4_nfs_enum_no_exports_metasploitable
+
+Neste print é apresentada a enumeração automática do serviço NFS, indicando ausência de restrições adequadas nos exports.
+
+🧠 Demonstra que o script:
+
+detecta serviços de compartilhamento ativos;
+
+identifica configurações inseguras;
+
+coleta informações relevantes para análise de risco;
+
+atua sem necessidade de intervenção manual.
+
+➡️ Mostra domínio de automação aplicada a serviços Linux/Unix.
+
+🐍 Evidência 05 — Automação de Enumeração FTP (vsftpd 2.3.4)
+
+📸 Arquivo: 5_ftp_enum_anonymous_vsftpd_2.3.4
+
+Este print evidencia a enumeração automatizada do serviço FTP, identificando:
+
+login anônimo habilitado;
+
+versão vulnerável do serviço (vsftpd 2.3.4).
+
+🚨 O script automatizado permite:
+
+correlação entre versão e risco;
+
+identificação rápida de superfícies exploráveis;
+
+ganho de tempo em análises repetitivas.
+
+➡️ Exemplo claro de automação focada em eficiência e escala.
+
+🐍 Evidência 06 — Automação de Enumeração do Serviço HTTP
+
+📸 Arquivo: 6_http_enum_metasploitable_nmap_results
+
+Este print apresenta os resultados da enumeração automatizada do serviço HTTP, coletados via Nmap e organizados pelo script Python.
+
+🔎 Demonstra que o projeto:
+
+identifica serviços web ativos;
+
+coleta informações expostas pelo servidor;
+
+prepara dados para futuras análises de segurança web;
+
+fecha o ciclo automatizado de enumeração.
+
+➡️ Consolida a automação aplicada a serviços de rede e aplicação.
+
+🧠 O Que Estas Evidências Comprovam
+
+Em conjunto, os prints demonstram que o projeto:
+
+automatiza tarefas reais de segurança com Python;
+
+integra ferramentas do mercado (Nmap);
+
+reduz trabalho manual repetitivo;
+
+gera evidências práticas e reproduzíveis;
+
+está alinhado com rotinas reais de Segurança da Informação.
+
+📌 Não é um projeto teórico — é automação funcional validada em laboratório.
+
+⚠️ Aviso Ético e Legal
+
+Todos os testes apresentados foram executados exclusivamente em ambientes controlados e autorizados, com finalidade:
+
+educacional;
+
+laboratório prático;
+
+portfólio profissional.
+
+🚫 O uso destes scripts fora desse contexto é ilegal e antiético.
