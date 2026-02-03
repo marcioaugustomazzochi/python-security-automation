@@ -1,4 +1,4 @@
-# 📸 Evidências Práticas (Impressões)
+📸 Evidências Práticas (Impressões)
 
 Esta pasta contém **prints reais de execução** dos scripts do projeto **Automação de Segurança em Python**, demonstrando o funcionamento prático das principais funcionalidades.
 
@@ -8,9 +8,7 @@ As imagens foram capturadas durante testes realizados em **ambiente de laborató
 - as saídas geram resultados concretos;
 - as ferramentas integradas (Nmap, coleta de CVE e análise de tráfego) funcionam conforme esperado.
 
----
-
-## 📁 Conteúdo da Pasta
+📁 Conteúdo da Pasta
 
 Cada imagem representa uma etapa prática do projeto:
 
@@ -18,9 +16,7 @@ Cada imagem representa uma etapa prática do projeto:
 - **02-cve-fetch.png** – saída da coleta automatizada de vulnerabilidades (CVEs)  
 - **03-traffic-capture.png** – captura e análise de pacotes de rede com Scapy  
 
----
-
-## 🧠 Por que essas evidências são importantes
+🧠 Por que essas evidências são importantes
 
 A inclusão de evidências visuais:
 
@@ -28,9 +24,7 @@ A inclusão de evidências visuais:
 - permite que recrutadores e avaliadores vejam a **execução real do código**;
 - demonstra que o projeto vai além da teoria e foi validado na prática.
 
----
-
-## ⚠️ Aviso Ético
+⚠️ Aviso Ético
 
 Todos os testes apresentados nesta pasta foram realizados **exclusivamente em ambientes controlados e autorizados**, com finalidade **educacional, de laboratório e de portfólio profissional**.
 
