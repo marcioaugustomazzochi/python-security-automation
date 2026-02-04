@@ -69,6 +69,7 @@ python-security-automation/
 git clone https://github.com/marcioaugustomazzochi/python-security-automation.git
 cd python-security-automation
 pip install -r requirements.txt
+
 💻 Exemplos de Uso
 Varredura com Nmap
 python scripts/nmap_scan.py 192.168.56.124
@@ -78,6 +79,7 @@ Coleta de CVEs
 python scripts/cve_fetch.py
 Análise de Tráfego
 python scripts/traffic_analysis.py
+
 🗺️ Roadmap
 ✔ Varredura de vulnerabilidades com Nmap
 
