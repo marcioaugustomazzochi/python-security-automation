@@ -15,7 +15,7 @@ Todos os testes foram realizados em ambiente de laboratório controlado e autori
 Comprovar que o projeto:
 
 - executa varreduras de segurança de forma automatizada;
-- coleta informações relevantes sem intervenção manual;
+- recolha de informações relevantes sem intervenção manual;
 - gera resultados reais, utilizáveis em análise técnica e relatórios.
 
 ---
