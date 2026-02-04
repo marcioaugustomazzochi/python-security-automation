@@ -54,8 +54,7 @@ Este print mostra a enumeração avançada de serviços executada automaticament
 
 <img width="1920" height="936" alt="3 smb_enum_anonymous_rw" src="https://github.com/user-attachments/assets/5e243148-a4be-461f-9202-1c0454a6b009" />
 
-
-Esta impessão demonstra a enumeração automatizada do serviço SMB, identificando acesso anônimo com permissões de leitura e escrita.
+Enumeração automatizada do serviço SMB, identificando acesso anônimo com permissões de leitura e escrita.
 
 **Identificado automaticamente:**
 - serviço SMB vulnerável;
