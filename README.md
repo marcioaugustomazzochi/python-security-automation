@@ -53,21 +53,22 @@ O projeto foi aplicado exclusivamente em **ambiente controlado e autorizado**, c
 ---
 
 ## 📁 Estrutura do Projeto
+
+```text
 python-security-automation/
 ├── scans/
-│ └── nmap_scan.py
+│   └── nmap_scan.py
 ├── threat_intel/
-│ └── cve_collector.py
+│   └── cve_collector.py
 ├── traffic_analysis/
-│ └── scapy_sniffer.py
+│   └── scapy_sniffer.py
 ├── reports/
-│ └── README.md
+│   └── README.md
 ├── prints/
-│ └── README.md
+│   └── README.md
 ├── requirements.txt
 ├── LICENSE
 └── README.md
-
 
 ---
 
