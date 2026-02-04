@@ -107,7 +107,7 @@ Resultados da enumeração automatizada do serviço HTTP, coletados via Nmap e o
 
 ## 🧠 O que estas evidências comprovam
 
-Em conjunto, os prints demonstram que o projeto:
+Em conjunto, as impressões demonstram que o projeto:
 
 - automatiza tarefas reais de segurança com Python;
 - integra ferramentas amplamente usadas no mercado (Nmap);
