@@ -5,23 +5,17 @@ Este relatório apresenta os resultados obtidos através da execução automatiz
 
 O objetivo é demonstrar a eficácia da automação na coleta de evidências técnicas de segurança, reduzindo esforço manual e aumentando a precisão das análises.
 
----
-
 ## 2. Escopo
 **Ambiente de testes:** Kali Linux (scanner) e Metasploitable (alvo vulnerável)  
 **Ferramentas utilizadas:** Python, Nmap  
 **Objetivo:** Automatizar varreduras e enumerações de serviços, coletando evidências práticas para análise de vulnerabilidades  
 **Limitações:** Testes realizados apenas em laboratório autorizado, sem impacto em sistemas reais de produção
 
----
-
 ## 3. Metodologia
 - **Automação de Scan Básico:** descoberta de portas abertas  
 - **Enumeração Avançada de Serviços:** coleta de versões e banners  
 - **Enumeração Específica de Protocolos:** SMB, NFS, FTP, HTTP  
 - **Coleta de Evidências:** prints e logs gerados automaticamente  
-
----
 
 ## 4. Evidências Técnicas
 
@@ -34,15 +28,11 @@ O objetivo é demonstrar a eficácia da automação na coleta de evidências té
 | 05 | FTP | Login anônimo ativo, versão vulnerável (vsftpd 2.3.4) |
 | 06 | HTTP | Identificação de serviços web ativos |
 
----
-
 ## 5. Análise de Riscos
 - **SMB:** risco de exposição de dados por acesso anônimo  
 - **NFS:** compartilhamento inseguro pode permitir acesso não autorizado  
 - **FTP:** versão vulnerável conhecida por exploits, login anônimo facilita invasão  
 - **HTTP:** serviços web expostos sem hardening adequado  
-
----
 
 ## 6. Conclusão
 O projeto comprova que a automação com Python + Nmap:  
@@ -50,8 +40,6 @@ O projeto comprova que a automação com Python + Nmap:
 - Gera evidências técnicas reais e reproduzíveis  
 - Aumenta a eficiência da análise de vulnerabilidades  
 - Pode ser integrado em pipelines de segurança ofensiva ou auditorias
-
----
 
 ## 7. Aviso Ético e Legal
 Todos os testes foram executados **exclusivamente em ambientes controlados e autorizados**, com finalidade:  
