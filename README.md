@@ -70,7 +70,6 @@ python-security-automation/
 ├── LICENSE
 └── README.md
 
----
 
 ## 📸 Evidências Práticas
 O projeto inclui **prints e registros de execução real** obtidos em laboratório controlado, demonstrando:
@@ -80,7 +79,6 @@ O projeto inclui **prints e registros de execução real** obtidos em laboratór
 
 Essas evidências suportam análises técnicas, relatórios e validação prática do projeto.
 
----
 
 ## 🚀 Instalação
 - Clonar o repositório
@@ -91,8 +89,6 @@ cd python-security-automation
 - Instalar dependências
 pip install -r requirements.txt
 
-
----
 
 ## ▶️ Exemplos de Uso
 
@@ -109,8 +105,6 @@ python threat_intel/cve_collector.py
 python traffic_analysis/scapy_sniffer.py
 
 
----
-
 ## 🗺️ Roadmap
 - Varredura automatizada de vulnerabilidades com Nmap
 - Coleta de dados de ameaças (CVE)
@@ -118,20 +112,17 @@ python traffic_analysis/scapy_sniffer.py
 - Geração automática de relatórios (TXT / HTML / PDF)
 - Integração futura com logs, SIEM e pipelines de segurança
 
----
 
 ## ⚠️ Aviso Ético e Legal
 - Este projeto deve ser utilizado exclusivamente em ambientes controlados, de teste ou com autorização explícita
 - Qualquer uso fora desse contexto é ilegal e antiético
 - O autor não se responsabiliza por usos indevidos
 
----
 
 ## 📜 Licença
 - Este projeto está licenciado sob a **MIT License**
 - Consulte o arquivo LICENSE para mais informações
 
----
 
 ## 👤 Autor
 **Márcio Augusto Mazzocchi**  
